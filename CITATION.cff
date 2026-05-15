@@ -1,7 +1,7 @@
 ﻿cff-version: 1.2.0
 title: "From CMMS to Agentic EAM: A practical multi-agent AI architecture for future maintenance platforms"
 message: "If you use this repository, please cite the paper file in this repository."
-authors:
+authors: Liang Li
   - family-names: "Independent Research"
 version: "0.2.0"
 date-released: "2026-05-13"
