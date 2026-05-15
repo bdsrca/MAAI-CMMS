@@ -2,7 +2,8 @@
 
 ## A practical multi-agent AI architecture for future maintenance platforms
 
-**Paper version:** 0.3  
+**Paper version:** 1.0  
+**By Liang Li**
 **Repository type:** research paper + reference architecture + runnable proof-of-concept  
 **Inspired by:** experimental interface concepts for a next-generation CMMS system shown below  
 **Scope:** CMMS, EAM, work orders, preventive maintenance, inventory, policy, audit, human approval, China smart manufacturing examples, Made in China 2025, graphs, charts, and reproducible figure source data  
