@@ -27,7 +27,7 @@ The v0.3 update adds a larger figure set. The primary figures are generated SVGs
 
 ![Made in China 2025 as a Launchpad for Agentic EAM](assets/made-in-china-2025-agentic-eam-roadmap.svg)
 
-*Figure 4. Made in China 2025, and the broader move from 涓浗鍒堕€?to 涓浗鏅洪€? create a strong launchpad for agentic EAM because more assets become connected, high-value, safety-sensitive, and data-rich. The 2030+ portion is the paper's forward-looking platform vision, not an official policy forecast.*
+*Figure 4. Made in China 2025, and the broader move from large-scale manufacturing to intelligent manufacturing, create a strong launchpad for agentic EAM because more assets become connected, high-value, safety-sensitive, and data-rich. The 2030+ portion is the paper's forward-looking platform vision, not an official policy forecast.*
 
 ![Chinese Industrial Exemplars for Agentic CMMS/EAM](assets/china-industrial-exemplars.svg)
 
@@ -56,7 +56,7 @@ This paper argues that multi-agent AI systems are not a decorative chatbot layer
 The proposal is deliberately conservative. The future CMMS/EAM platform should not let an LLM silently create work orders, reserve parts, change PM strategy, or send commands into operational technology. It should first become excellent at evidence gathering, structured recommendation, disagreement handling, policy gating, and approval workflows. In this model, autonomy is earned gradually. The first useful outcome is not a robot maintenance planner. It is a trusted review package that a planner can approve in seconds instead of assembling in minutes or hours.
 
 
-This v0.3 update adds a China-specific lens plus reproducible graphs and charts. Made in China 2025 (`涓浗鍒堕€?025`) and the broader move from "made" to "intelligently made" (`涓浗鏅洪€燻) make China a particularly strong proving ground for agentic CMMS/EAM. Public examples from Midea, SANY, State Grid, CRRC, Huawei, Sinopec, Haier COSMOPlat, and Baowu/Baosteel show the same pattern from different industries: connected assets produce more signals; operations become more safety- and uptime-sensitive; maintenance decisions depend on cross-functional evidence; and human-governed automation becomes more valuable than an uncontrolled chatbot.
+This v0.3 update adds a China-specific lens plus reproducible graphs and charts. Made in China 2025, and the broader move from conventional manufacturing to intelligent manufacturing, make China a particularly strong proving ground for agentic CMMS/EAM. Public examples from Midea, SANY, State Grid, CRRC, Huawei, Sinopec, Haier COSMOPlat, and Baowu/Baosteel show the same pattern from different industries: connected assets produce more signals; operations become more safety- and uptime-sensitive; maintenance decisions depend on cross-functional evidence; and human-governed automation becomes more valuable than an uncontrolled chatbot.
 
 ---
 
@@ -651,47 +651,46 @@ This repository includes a deterministic Python proof-of-concept. It mirrors the
 
 ```text
 .
-鈹溾攢鈹€ README.md
-鈹溾攢鈹€ PAPER.md
-鈹溾攢鈹€ assets/
-鈹?  鈹溾攢鈹€ experimental-maai-poc.png
-鈹?  鈹溾攢鈹€ experimental-ai-settings.png
-鈹?  鈹溾攢鈹€ future-cmms-eam-mas-architecture.svg
-鈹?  鈹溾攢鈹€ agentic-work-order-lifecycle.svg
-鈹?  鈹溾攢鈹€ agent-contract.svg
-鈹?  鈹溾攢鈹€ mas-value-loop-expanded.svg
-鈹?  鈹溾攢鈹€ made-in-china-2025-agentic-eam-roadmap.svg
-鈹?  鈹溾攢鈹€ china-industrial-exemplars.svg
-鈹?  鈹溾攢鈹€ maintenance-use-case-leverage-matrix.svg
-鈹?  鈹溾攢鈹€ china-agentic-eam-fit-heatmap.svg
-鈹?  鈹溾攢鈹€ industrial-maintenance-data-flywheel.svg
-鈹?  鈹斺攢鈹€ renders/
-鈹溾攢鈹€ data/
-鈹?  鈹溾攢鈹€ china_industrial_examples.json
-鈹?  鈹溾攢鈹€ use_case_scores.json
-鈹?  鈹斺攢鈹€ made_in_china_2025_mapping.json
-鈹溾攢鈹€ docs/
-鈹?  鈹溾攢鈹€ architecture-deep-dive.md
-鈹?  鈹溾攢鈹€ agent-contracts.md
-鈹?  鈹溾攢鈹€ evaluation-and-safety.md
-鈹?  鈹溾攢鈹€ product-roadmap.md
-鈹?  鈹溾攢鈹€ china-made-in-china-2025-and-agentic-eam.md
-鈹?  鈹溾攢鈹€ china-real-life-examples.md
-鈹?  鈹溾攢鈹€ visuals-and-charts.md
-鈹?  鈹斺攢鈹€ source-code-walkthrough.md
-鈹溾攢鈹€ examples/requests/compressor_noisy.json
-鈹溾攢鈹€ scripts/
-鈹?  鈹斺攢鈹€ generate_figures.py
-鈹溾攢鈹€ src/maai_cmms_demo/
-鈹?  鈹溾攢鈹€ agents.py
-鈹?  鈹溾攢鈹€ china_cases.py
-鈹?  鈹溾攢鈹€ cli.py
-鈹?  鈹溾攢鈹€ models.py
-鈹?  鈹溾攢鈹€ orchestrator.py
-鈹?  鈹斺攢鈹€ sample_data.py
-鈹斺攢鈹€ tests/
-    鈹溾攢鈹€ test_orchestrator.py
-    鈹斺攢鈹€ test_china_examples.py
+|- README.md
+|- PAPER.md
+|- assets/
+|  |- experimental-maai-poc.png
+|  |- experimental-ai-settings.png
+|  |- future-cmms-eam-mas-architecture.svg
+|  |- agentic-work-order-lifecycle.svg
+|  |- agent-contract.svg
+|  |- mas-value-loop-expanded.svg
+|  |- made-in-china-2025-agentic-eam-roadmap.svg
+|  |- china-industrial-exemplars.svg
+|  |- maintenance-use-case-leverage-matrix.svg
+|  |- china-agentic-eam-fit-heatmap.svg
+|  `- industrial-maintenance-data-flywheel.svg
+|- data/
+|  |- china_industrial_examples.json
+|  |- use_case_scores.json
+|  `- made_in_china_2025_mapping.json
+|- docs/
+|  |- architecture-deep-dive.md
+|  |- agent-contracts.md
+|  |- evaluation-and-safety.md
+|  |- product-roadmap.md
+|  |- china-made-in-china-2025-and-agentic-eam.md
+|  |- china-real-life-examples.md
+|  |- visuals-and-charts.md
+|  `- source-code-walkthrough.md
+|- examples/requests/compressor_noisy.json
+|- scripts/
+|  `- generate_figures.py
+|- src/maai_cmms_demo/
+|  |- agents.py
+|  |- china_cases.py
+|  |- cli.py
+|  |- models.py
+|  |- orchestrator.py
+|  `- sample_data.py
+`- tests/
+   |- test_orchestrator.py
+   `- test_china_examples.py
 ```
 
 ### 11.2 Run the demo
@@ -773,7 +772,7 @@ The China scoring data is intentionally labeled as analytical and illustrative. 
 
 ## 12. Made in China 2025 and real-world Chinese industrial examples
 
-The official policy phrase is **Made in China 2025** (`涓浗鍒堕€?025`). This paper also uses the market phrase **涓浗鏅洪€?* to describe the broader move from manufacturing capacity to intelligent manufacturing capability. That distinction matters: the policy direction creates the macro pressure, while the industrial reality creates the maintenance problem.
+The official policy phrase is **Made in China 2025**. This paper also refers to the broader move from manufacturing capacity to intelligent manufacturing capability. That distinction matters: the policy direction creates the macro pressure, while the industrial reality creates the maintenance problem.
 
 The State Council issued Made in China 2025 in 2015 as the first decade of a larger manufacturing-power strategy [20]. Public government summaries describe strategic tasks such as innovation, integration of informatization and industrialization, industrial foundation strengthening, quality and brand improvement, green manufacturing, service-oriented manufacturing, and breakthroughs in key sectors [21]. The ten priority sectors include next-generation IT, high-end CNC and robotics, aerospace equipment, ocean engineering equipment and high-tech ships, advanced rail transit, energy-saving and new-energy vehicles, power equipment, agricultural machinery, new materials, and biomedicine/high-performance medical devices [21].
 
@@ -947,7 +946,7 @@ This experimental concept is promising because it starts in the right place: age
 
 [19] ICLR Blogposts, *Multi-LLM-Agents Debate - Performance, Efficiency, and Scaling*, 2025. https://iclr-blogposts.github.io/2025/blog/mad/
 
-[20] State Council of the People's Republic of China, `鍥藉姟闄㈠叧浜庡嵃鍙戙€婁腑鍥藉埗閫?025銆嬬殑閫氱煡`, 2015. https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm
+[20] State Council of the People's Republic of China, *Notice on Issuing Made in China 2025*, 2015. https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm
 
 [21] Ministry of Finance of the People's Republic of China, public summary of Made in China 2025 strategic tasks and priority sectors, 2015. https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201505/t20150519_1233749.htm
 
@@ -955,7 +954,7 @@ This experimental concept is promising because it starts in the right place: age
 
 [23] SANY Group, *No. 18 Factory is one of the smartest lighthouse factories in the global heavy industry*. https://www.sanyglobal.com/video/145/
 
-[24] State Grid / NARI Group, `娣卞寲浜哄伐鏅鸿兘鎶€鏈簲鐢?鎵撻€犺兘婧愮數鍔涙柊璐ㄧ敓浜у姏`, 2025. https://www.sgepri.sgcc.com.cn/html/sgepri/gb/xwzx/zbdt/20250417/386435202504170839000002.shtml
+[24] State Grid / NARI Group, *Deepening AI technology applications to build new productive capacity in the energy-power sector*, 2025. https://www.sgepri.sgcc.com.cn/html/sgepri/gb/xwzx/zbdt/20250417/386435202504170839000002.shtml
 
 [25] CRRC, *CRRC Launches Two Innovative Green Intelligent Trains at InnoTrans 2024*. https://www.crrcgc.cc/en/2024-09/27/article_2024092715480084389.html
 
@@ -967,9 +966,9 @@ This experimental concept is promising because it starts in the right place: age
 
 [29] CATL, *Smart Manufacturing*. https://www.catl.com/en/manufacture/
 
-[30] State Grid Jiangsu, `娣畨渚涚數鐢ㄦ棤浜烘満閲嶆瀯鐢电綉杩愮淮鐗堝浘鈥斺€斺€滄櫤鈥濋┉鑻嶇┕ 鈥滅考鈥濆姩鏈潵`, 2025. https://www.js.sgcc.com.cn/xwzx/jcdt/2025/287.shtml
+[30] State Grid Jiangsu, *Drone-based power-grid inspection and AI-enabled operations and maintenance*, 2025. https://www.js.sgcc.com.cn/xwzx/jcdt/2025/287.shtml
 
-[31] State Grid / EPRI, `鍏徃涓€鎴愭灉鍏ラ€夐鎵瑰ぎ浼侀珮璐ㄩ噺鏁版嵁闆嗕紭绉€寤鸿鎴愭灉`, 2025. https://www.epri.sgcc.com.cn/html/chinasperi/gb/jyyw2/xyzx/20250515/856984202505151254000001.shtml
+[31] State Grid / EPRI, *Corporate achievement selected among high-quality AI dataset and model-construction results*, 2025. https://www.epri.sgcc.com.cn/html/chinasperi/gb/jyyw2/xyzx/20250515/856984202505151254000001.shtml
 
 [32] Haier, *COSMOPlat*. https://www.haier.com/global/haier-ecosystem/cosmoplat/
 

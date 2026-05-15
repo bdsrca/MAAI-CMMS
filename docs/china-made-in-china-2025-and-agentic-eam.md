@@ -1,6 +1,6 @@
-﻿# China, 涓浗鍒堕€?025, and the Road to Agentic EAM
+﻿# China, Made in China 2025, and the Road to Agentic EAM
 
-This note extends the paper with a China-specific view. The official policy name is **涓浗鍒堕€?025** (*Made in China 2025*). In product and industry conversations it is often reframed as the move from **涓浗鍒堕€?* to **涓浗鏅洪€?*: from manufacturing capacity to intelligent manufacturing capability. This document uses that phrase as an interpretation, not as a replacement for the official policy title.
+This note extends the paper with a China-specific view. The official policy name is **Made in China 2025**. In product and industry conversations it is often reframed as the move from conventional manufacturing to intelligent manufacturing: from manufacturing capacity to intelligent manufacturing capability. This document uses that framing as an interpretation, not as a replacement for the official policy title.
 
 ![Made in China 2025 as a Launchpad for Agentic EAM](../assets/made-in-china-2025-agentic-eam-roadmap.svg)
 
@@ -69,8 +69,9 @@ This document uses public information to build product-design analogies. It does
 
 ## Sources
 
-- State Council of the People's Republic of China, **鍥藉姟闄㈠叧浜庡嵃鍙戙€婁腑鍥藉埗閫?025銆嬬殑閫氱煡**: <https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm>
+- State Council of the People's Republic of China, **Notice on Issuing Made in China 2025**: <https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm>
 - Ministry of Finance summary of State Council Made in China 2025 announcement: <https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201505/t20150519_1233749.htm>
 - MIIT Made in China 2025 topic page: <https://www.miit.gov.cn/ztzl/lszt/zgzz2025/index.html>
 - MIIT media link on priority sectors and intelligent manufacturing: <https://www.miit.gov.cn/ztzl/lszt/zgzz2025/mtlj/art/2020/art_59d47f4319394d66b491522f44a6ad9f.html>
+
 
