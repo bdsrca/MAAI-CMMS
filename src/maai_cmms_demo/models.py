@@ -1,4 +1,4 @@
-"""Core data contracts for the NextCMMS Multi-Agent AI demo.
+﻿"""Core data contracts for the experimental agentic CMMS demo.
 
 The demo is intentionally deterministic: no network calls, no LLM calls, and no
 writes to real systems. It models the contracts a production CMMS/EAM agent
@@ -124,3 +124,4 @@ class OrchestrationRun:
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
+

@@ -1,6 +1,6 @@
-# China, 中国制造2025, and the Road to Agentic EAM
+﻿# China, 涓浗鍒堕€?025, and the Road to Agentic EAM
 
-This note extends the paper with a China-specific view. The official policy name is **中国制造2025** (*Made in China 2025*). In product and industry conversations it is often reframed as the move from **中国制造** to **中国智造**: from manufacturing capacity to intelligent manufacturing capability. This document uses that phrase as an interpretation, not as a replacement for the official policy title.
+This note extends the paper with a China-specific view. The official policy name is **涓浗鍒堕€?025** (*Made in China 2025*). In product and industry conversations it is often reframed as the move from **涓浗鍒堕€?* to **涓浗鏅洪€?*: from manufacturing capacity to intelligent manufacturing capability. This document uses that phrase as an interpretation, not as a replacement for the official policy title.
 
 ![Made in China 2025 as a Launchpad for Agentic EAM](../assets/made-in-china-2025-agentic-eam-roadmap.svg)
 
@@ -51,9 +51,9 @@ The shift to agentic EAM does **not** mean removing people from maintenance deci
 
 The common pattern is cross-functional reasoning. Maintenance is no longer an isolated department event. It touches production, quality, energy, service, safety, and capital planning.
 
-## 5. What a future NextCMMS-style product should do with this insight
+## 5. What a future experimental CMMS product should do with this insight
 
-A future CMMS/EAM platform inspired by the NextCMMS MAAI concept should use China-style industrial cases as stress tests:
+A future CMMS/EAM platform inspired by this experimental concept should use China-style industrial cases as stress tests:
 
 - **Can the platform explain why a work order is recommended?**
 - **Can it say which agent checked asset risk, which agent checked inventory, and which agent blocked automation?**
@@ -69,7 +69,8 @@ This document uses public information to build product-design analogies. It does
 
 ## Sources
 
-- State Council of the People's Republic of China, **国务院关于印发《中国制造2025》的通知**: <https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm>
+- State Council of the People's Republic of China, **鍥藉姟闄㈠叧浜庡嵃鍙戙€婁腑鍥藉埗閫?025銆嬬殑閫氱煡**: <https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm>
 - Ministry of Finance summary of State Council Made in China 2025 announcement: <https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201505/t20150519_1233749.htm>
 - MIIT Made in China 2025 topic page: <https://www.miit.gov.cn/ztzl/lszt/zgzz2025/index.html>
 - MIIT media link on priority sectors and intelligent manufacturing: <https://www.miit.gov.cn/ztzl/lszt/zgzz2025/mtlj/art/2020/art_59d47f4319394d66b491522f44a6ad9f.html>
+

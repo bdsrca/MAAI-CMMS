@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Generate lightweight SVG figures for the NextCMMS MAAI paper.
+﻿#!/usr/bin/env python3
+"""Generate lightweight SVG figures for the experimental agentic CMMS paper.
 
 The script is intentionally dependency-free so the repository can be cloned and
 re-rendered in any basic Python 3 environment. The PNG figures in assets/ are
@@ -39,7 +39,7 @@ def tspans(text: str, x: float, y: float, width_chars: int = 34, line_height: in
 
 
 def svg_header(width: int, height: int) -> str:
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="NextCMMS MAAI figure">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Experimental agentic CMMS figure">
   <defs>
     <style>
       text {{ font-family: {FONT}; }}
@@ -116,18 +116,18 @@ def maintenance_leverage_scatter() -> None:
         svg.append(tspans(r["use_case"], cx, cy - 3, 16, 13, "tiny", "middle"))
     # right panels
     svg.append(rounded_rect(875, 120, 290, 232, 22, "#f0fdf4", "#86efac"))
-    svg.append('<circle cx="918" cy="163" r="24" fill="#10b981"/><text class="badge" x="918" y="168" text-anchor="middle">✓</text>')
+    svg.append('<circle cx="918" cy="163" r="24" fill="#10b981"/><text class="badge" x="918" y="168" text-anchor="middle">鉁?/text>')
     svg.append('<text class="h2" x="954" y="169">Best near-term wins</text>')
     for i, t in enumerate(["Work-order triage", "Policy-aware recommendation packages", "Spare-parts coordination", "Field inspection scheduling"]):
         y = 213 + i * 34
-        svg.append(f'<text class="h3" x="904" y="{y}" fill="#059669">✓</text>')
+        svg.append(f'<text class="h3" x="904" y="{y}" fill="#059669">鉁?/text>')
         svg.append(tspans(t, 930, y, 30, 13, "small"))
     svg.append(rounded_rect(875, 380, 290, 228, 22, "#fff7ed", "#fdba74"))
     svg.append('<circle cx="918" cy="423" r="24" fill="#f97316"/><text class="badge" x="918" y="428" text-anchor="middle">!</text>')
     svg.append('<text class="h2" x="954" y="429">Tighter governance</text>')
     for i, t in enumerate(["Live write actions", "Shutdown planning", "Safety-critical rail and grid actions", "Autonomous optimization loops"]):
         y = 473 + i * 34
-        svg.append(f'<text class="h3" x="904" y="{y}" fill="#ea580c">△</text>')
+        svg.append(f'<text class="h3" x="904" y="{y}" fill="#ea580c">鈻?/text>')
         svg.append(tspans(t, 930, y, 31, 13, "small"))
     svg.append(rounded_rect(36, 675, 1128, 60, 18, "#f8fafc", "#cbd5e1"))
     svg.append('<text class="h3" x="64" y="711">Legend:</text>')
@@ -211,7 +211,7 @@ def made_in_china_roadmap() -> None:
         svg.append(tspans(s, 1241, y - 1, 17, 12, "tiny"))
     svg.append(rounded_rect(42, 725, 1315, 70, 18, "#f8fafc", "#dbeafe"))
     svg.append('<text class="h3" x="70" y="755">CMMS/EAM meaning:</text>')
-    svg.append('<text class="small" x="210" y="755">More connected assets → more complex compliance → higher uptime expectations → greater value from cross-agent collaboration and explainable automation.</text>')
+    svg.append('<text class="small" x="210" y="755">More connected assets 鈫?more complex compliance 鈫?higher uptime expectations 鈫?greater value from cross-agent collaboration and explainable automation.</text>')
     svg.append("</svg>")
     write(ASSETS / "made-in-china-2025-roadmap.svg", "\n".join(svg))
 
@@ -247,7 +247,7 @@ def automation_governance_matrix() -> None:
     signals = ["Tenant feature flag enabled", "Role has scope for tool", "Evidence is fresh and cited", "Policy checks pass", "Budget and threshold pass", "Audit event is written", "Human can reverse or override"]
     for i, s in enumerate(signals):
         y = 228 + i * 45
-        svg.append(f'<circle cx="828" cy="{y-5}" r="12" fill="#2563eb"/><text class="badge" x="828" y="{y}" text-anchor="middle">✓</text>')
+        svg.append(f'<circle cx="828" cy="{y-5}" r="12" fill="#2563eb"/><text class="badge" x="828" y="{y}" text-anchor="middle">鉁?/text>')
         svg.append(tspans(s, 850, y, 25, 14, "small"))
     svg.append("</svg>")
     write(ASSETS / "automation-governance-matrix.svg", "\n".join(svg))
@@ -301,3 +301,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

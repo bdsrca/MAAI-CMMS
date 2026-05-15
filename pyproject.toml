@@ -1,9 +1,9 @@
-[project]
-name = "nextcmms-maai-demo"
+﻿[project]
+name = "maai-cmms-demo"
 version = "0.2.0"
-description = "Deterministic multi-agent CMMS/EAM proof-of-concept with China smart manufacturing examples"
+description = "Deterministic multi-agent CMMS/EAM demo with China smart manufacturing examples"
 requires-python = ">=3.11"
-authors = [{ name = "NextCMMS Research" }]
+authors = [{ name = "Independent Research" }]
 license = "MIT"
 
 [tool.setuptools]
@@ -11,3 +11,4 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+

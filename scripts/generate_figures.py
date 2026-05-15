@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Generate deterministic SVG figures for the NextCMMS MAAI paper.
+﻿#!/usr/bin/env python3
+"""Generate deterministic SVG figures for the experimental agentic CMMS paper.
 
 The figures are intentionally generated from small JSON data files so the paper
 can be versioned, reviewed, and changed without manual graphics editing.
@@ -361,14 +361,14 @@ def create_leverage_matrix() -> None:
     for i, item in enumerate(["Work-order triage", "Policy-aware packages", "Spare-parts coordination", "Inspection scheduling"]):
         yy = sy + 82 + i * 36
         body.append(circle(sx + 34, yy - 5, 11, "#ffffff", COLORS["green"]))
-        body.append(text(sx + 34, yy, "✓", 12, 800, COLORS["green"], "middle"))
+        body.append(text(sx + 34, yy, "鉁?, 12, 800, COLORS["green"], "middle"))
         body.append(text(sx + 56, yy, item, 15, 600, COLORS["muted"]))
     sy2 = 465
     body.append(rect(sx, sy2, 285, 250, 24, "#fff7ed", "#fed7aa", 1.2, 'filter="url(#shadow)"'))
     body.append(text(sx + 28, sy2 + 44, "Needs tighter governance", 22, 800, COLORS["orange"]))
     for i, item in enumerate(["Live write actions", "Shutdown planning", "Rail and grid decisions", "Autonomous optimization"]):
         yy = sy2 + 82 + i * 36
-        body.append(text(sx + 34, yy, "△", 20, 800, COLORS["orange"], "middle"))
+        body.append(text(sx + 34, yy, "鈻?, 20, 800, COLORS["orange"], "middle"))
         body.append(text(sx + 56, yy, item, 15, 600, COLORS["muted"]))
     body.append(rect(55, 740, 1240, 50, 20, "#f8fafc", COLORS["line"], 1.2))
     body.append(text(85, 772, "Legend:", 15, 800, COLORS["navy"]))
@@ -477,3 +477,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

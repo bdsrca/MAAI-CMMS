@@ -1,20 +1,20 @@
-# From CMMS to Agentic EAM
+﻿# From CMMS to Agentic EAM
 
 ## A practical multi-agent AI architecture for future maintenance platforms
 
 **Paper version:** 0.3  
 **Repository type:** research paper + reference architecture + runnable proof-of-concept  
-**Inspired by:** the NextCMMS MAAI proof-of-concept and AI settings screens shown below  
+**Inspired by:** experimental interface concepts for a next-generation CMMS system shown below  
 **Scope:** CMMS, EAM, work orders, preventive maintenance, inventory, policy, audit, human approval, China smart manufacturing examples, Made in China 2025, graphs, charts, and reproducible figure source data  
 **Status:** concept and implementation sketch. The demo does not call an LLM, does not write to a CMMS, and does not automate physical actions.
 
-![NextCMMS MAAI POC](assets/nextcmms-maai-poc.png)
+![Experimental multi-agent CMMS concept](assets/experimental-maai-poc.png)
 
-*Figure 1. NextCMMS MAAI concept: one maintenance request is reviewed by intake, asset, inventory, and policy agents. The UI exposes budget, confidence, automation risk, and a human approval gate.*
+*Figure 1. Experimental next-generation CMMS concept: one maintenance request is reviewed by intake, asset, inventory, and policy agents. The UI exposes budget, confidence, automation risk, and a human approval gate.*
 
-![NextCMMS AI Settings](assets/nextcmms-ai-settings.png)
+![Experimental CMMS AI settings concept](assets/experimental-ai-settings.png)
 
-*Figure 2. NextCMMS AI settings concept: tenant-scoped feature flags, report thresholds, runtime guards, adaptive load settings, and integration hooks.*
+*Figure 2. Experimental CMMS AI settings concept: tenant-scoped feature flags, report thresholds, runtime guards, adaptive load settings, and integration hooks.*
 
 
 ### Visual summary added in v0.3
@@ -27,7 +27,7 @@ The v0.3 update adds a larger figure set. The primary figures are generated SVGs
 
 ![Made in China 2025 as a Launchpad for Agentic EAM](assets/made-in-china-2025-agentic-eam-roadmap.svg)
 
-*Figure 4. Made in China 2025, and the broader move from 中国制造 to 中国智造, create a strong launchpad for agentic EAM because more assets become connected, high-value, safety-sensitive, and data-rich. The 2030+ portion is the paper's forward-looking platform vision, not an official policy forecast.*
+*Figure 4. Made in China 2025, and the broader move from 涓浗鍒堕€?to 涓浗鏅洪€? create a strong launchpad for agentic EAM because more assets become connected, high-value, safety-sensitive, and data-rich. The 2030+ portion is the paper's forward-looking platform vision, not an official policy forecast.*
 
 ![Chinese Industrial Exemplars for Agentic CMMS/EAM](assets/china-industrial-exemplars.svg)
 
@@ -56,14 +56,14 @@ This paper argues that multi-agent AI systems are not a decorative chatbot layer
 The proposal is deliberately conservative. The future CMMS/EAM platform should not let an LLM silently create work orders, reserve parts, change PM strategy, or send commands into operational technology. It should first become excellent at evidence gathering, structured recommendation, disagreement handling, policy gating, and approval workflows. In this model, autonomy is earned gradually. The first useful outcome is not a robot maintenance planner. It is a trusted review package that a planner can approve in seconds instead of assembling in minutes or hours.
 
 
-This v0.3 update adds a China-specific lens plus reproducible graphs and charts. Made in China 2025 (`中国制造2025`) and the broader move from "made" to "intelligently made" (`中国智造`) make China a particularly strong proving ground for agentic CMMS/EAM. Public examples from Midea, SANY, State Grid, CRRC, Huawei, Sinopec, Haier COSMOPlat, and Baowu/Baosteel show the same pattern from different industries: connected assets produce more signals; operations become more safety- and uptime-sensitive; maintenance decisions depend on cross-functional evidence; and human-governed automation becomes more valuable than an uncontrolled chatbot.
+This v0.3 update adds a China-specific lens plus reproducible graphs and charts. Made in China 2025 (`涓浗鍒堕€?025`) and the broader move from "made" to "intelligently made" (`涓浗鏅洪€燻) make China a particularly strong proving ground for agentic CMMS/EAM. Public examples from Midea, SANY, State Grid, CRRC, Huawei, Sinopec, Haier COSMOPlat, and Baowu/Baosteel show the same pattern from different industries: connected assets produce more signals; operations become more safety- and uptime-sensitive; maintenance decisions depend on cross-functional evidence; and human-governed automation becomes more valuable than an uncontrolled chatbot.
 
 ---
 
 ## Table of contents
 
 1. [Why CMMS/EAM needs multi-agent AI](#1-why-cmmseam-needs-multi-agent-ai)
-2. [What the NextCMMS MAAI concept gets right](#2-what-the-nextcmms-maai-concept-gets-right)
+2. [What the experimental concept gets right](#2-what-the-experimental-concept-gets-right)
 3. [The core thesis: controlled delegation](#3-the-core-thesis-controlled-delegation)
 4. [Reference architecture](#4-reference-architecture)
 5. [Agent roles for future CMMS/EAM](#5-agent-roles-for-future-cmmseam)
@@ -104,9 +104,9 @@ A multi-agent system answers these questions by design. Each agent has a narrowe
 
 ---
 
-## 2. What the NextCMMS MAAI concept gets right
+## 2. What the experimental concept gets right
 
-The provided NextCMMS screens show a useful product direction because they treat multi-agent AI as an operational control surface, not as a magic text box.
+The provided interface concepts show a useful product direction because they treat multi-agent AI as an operational control surface, not as a magic text box.
 
 ### 2.1 The MAAI screen is a review system, not an automation trap
 
@@ -201,7 +201,7 @@ Good CMMS/EAM AI should not hide behind a polished paragraph. It should expose t
 
 The orchestration layer is the agent control tower. It creates an `AgentContext`, assigns `AgentTask` objects, collects `AgentResult` outputs, manages the `OrchestrationRun`, and handles budget, timeouts, retry policy, and audit.
 
-The NextCMMS MAAI screen already hints at these reserved contract names: `AgentContext`, `AgentTask`, `AgentResult`, and `OrchestrationRun`. Those names are exactly the right primitives.
+The experimental interface already hints at these reserved contract names: `AgentContext`, `AgentTask`, `AgentResult`, and `OrchestrationRun`. Those names are exactly the right primitives.
 
 A production orchestrator should provide:
 
@@ -645,66 +645,66 @@ At Phase 5, the CMMS/EAM platform becomes a coordination layer for an ecosystem.
 
 ## 11. Source code included in this repository
 
-This repository includes a deterministic Python proof-of-concept. It mirrors the NextCMMS MAAI screen at a small scale: a request for "Compressor noisy" is reviewed by Intake, Asset, Inventory, and Policy agents. The result is a review package with blocked writes and planned audit.
+This repository includes a deterministic Python proof-of-concept. It mirrors the experimental interface at a small scale: a request for "Compressor noisy" is reviewed by Intake, Asset, Inventory, and Policy agents. The result is a review package with blocked writes and planned audit.
 
 ### 11.1 Repository structure
 
 ```text
 .
-├── README.md
-├── PAPER.md
-├── assets/
-│   ├── nextcmms-maai-poc.png
-│   ├── nextcmms-ai-settings.png
-│   ├── future-cmms-eam-mas-architecture.svg
-│   ├── agentic-work-order-lifecycle.svg
-│   ├── agent-contract.svg
-│   ├── mas-value-loop-expanded.svg
-│   ├── made-in-china-2025-agentic-eam-roadmap.svg
-│   ├── china-industrial-exemplars.svg
-│   ├── maintenance-use-case-leverage-matrix.svg
-│   ├── china-agentic-eam-fit-heatmap.svg
-│   ├── industrial-maintenance-data-flywheel.svg
-│   └── renders/
-├── data/
-│   ├── china_industrial_examples.json
-│   ├── use_case_scores.json
-│   └── made_in_china_2025_mapping.json
-├── docs/
-│   ├── architecture-deep-dive.md
-│   ├── agent-contracts.md
-│   ├── evaluation-and-safety.md
-│   ├── product-roadmap.md
-│   ├── china-made-in-china-2025-and-agentic-eam.md
-│   ├── china-real-life-examples.md
-│   ├── visuals-and-charts.md
-│   └── source-code-walkthrough.md
-├── examples/requests/compressor_noisy.json
-├── scripts/
-│   └── generate_figures.py
-├── src/maai_cmms_demo/
-│   ├── agents.py
-│   ├── china_cases.py
-│   ├── cli.py
-│   ├── models.py
-│   ├── orchestrator.py
-│   └── sample_data.py
-└── tests/
-    ├── test_orchestrator.py
-    └── test_china_examples.py
+鈹溾攢鈹€ README.md
+鈹溾攢鈹€ PAPER.md
+鈹溾攢鈹€ assets/
+鈹?  鈹溾攢鈹€ experimental-maai-poc.png
+鈹?  鈹溾攢鈹€ experimental-ai-settings.png
+鈹?  鈹溾攢鈹€ future-cmms-eam-mas-architecture.svg
+鈹?  鈹溾攢鈹€ agentic-work-order-lifecycle.svg
+鈹?  鈹溾攢鈹€ agent-contract.svg
+鈹?  鈹溾攢鈹€ mas-value-loop-expanded.svg
+鈹?  鈹溾攢鈹€ made-in-china-2025-agentic-eam-roadmap.svg
+鈹?  鈹溾攢鈹€ china-industrial-exemplars.svg
+鈹?  鈹溾攢鈹€ maintenance-use-case-leverage-matrix.svg
+鈹?  鈹溾攢鈹€ china-agentic-eam-fit-heatmap.svg
+鈹?  鈹溾攢鈹€ industrial-maintenance-data-flywheel.svg
+鈹?  鈹斺攢鈹€ renders/
+鈹溾攢鈹€ data/
+鈹?  鈹溾攢鈹€ china_industrial_examples.json
+鈹?  鈹溾攢鈹€ use_case_scores.json
+鈹?  鈹斺攢鈹€ made_in_china_2025_mapping.json
+鈹溾攢鈹€ docs/
+鈹?  鈹溾攢鈹€ architecture-deep-dive.md
+鈹?  鈹溾攢鈹€ agent-contracts.md
+鈹?  鈹溾攢鈹€ evaluation-and-safety.md
+鈹?  鈹溾攢鈹€ product-roadmap.md
+鈹?  鈹溾攢鈹€ china-made-in-china-2025-and-agentic-eam.md
+鈹?  鈹溾攢鈹€ china-real-life-examples.md
+鈹?  鈹溾攢鈹€ visuals-and-charts.md
+鈹?  鈹斺攢鈹€ source-code-walkthrough.md
+鈹溾攢鈹€ examples/requests/compressor_noisy.json
+鈹溾攢鈹€ scripts/
+鈹?  鈹斺攢鈹€ generate_figures.py
+鈹溾攢鈹€ src/maai_cmms_demo/
+鈹?  鈹溾攢鈹€ agents.py
+鈹?  鈹溾攢鈹€ china_cases.py
+鈹?  鈹溾攢鈹€ cli.py
+鈹?  鈹溾攢鈹€ models.py
+鈹?  鈹溾攢鈹€ orchestrator.py
+鈹?  鈹斺攢鈹€ sample_data.py
+鈹斺攢鈹€ tests/
+    鈹溾攢鈹€ test_orchestrator.py
+    鈹斺攢鈹€ test_china_examples.py
 ```
 
 ### 11.2 Run the demo
 
 ```bash
-cd nextcmms-maai-paper
+cd MAAI-CMMS
 PYTHONPATH=src python -m maai_cmms_demo --input examples/requests/compressor_noisy.json
 ```
 
 Expected output:
 
 ```text
-NextCMMS MAAI demo run
+Experimental CMMS demo run
 Input: Compressor noisy
 Budget used: 16%
 Recommendation confidence: 88%
@@ -718,7 +718,7 @@ The exact run ID changes each time. The important point is that the system produ
 ### 11.3 Run tests
 
 ```bash
-cd nextcmms-maai-paper
+cd MAAI-CMMS
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
@@ -747,7 +747,7 @@ That is intentional. The code is a contract-first skeleton for a production arch
 The primary figures are not hand-edited screenshots. They are generated from small data files so the paper can be reviewed like code:
 
 ```bash
-cd nextcmms-maai-paper
+cd MAAI-CMMS
 python scripts/generate_figures.py
 ```
 
@@ -773,7 +773,7 @@ The China scoring data is intentionally labeled as analytical and illustrative. 
 
 ## 12. Made in China 2025 and real-world Chinese industrial examples
 
-The official policy phrase is **Made in China 2025** (`中国制造2025`). This paper also uses the market phrase **中国智造** to describe the broader move from manufacturing capacity to intelligent manufacturing capability. That distinction matters: the policy direction creates the macro pressure, while the industrial reality creates the maintenance problem.
+The official policy phrase is **Made in China 2025** (`涓浗鍒堕€?025`). This paper also uses the market phrase **涓浗鏅洪€?* to describe the broader move from manufacturing capacity to intelligent manufacturing capability. That distinction matters: the policy direction creates the macro pressure, while the industrial reality creates the maintenance problem.
 
 The State Council issued Made in China 2025 in 2015 as the first decade of a larger manufacturing-power strategy [20]. Public government summaries describe strategic tasks such as innovation, integration of informatization and industrialization, industrial foundation strengthening, quality and brand improvement, green manufacturing, service-oriented manufacturing, and breakthroughs in key sectors [21]. The ten priority sectors include next-generation IT, high-end CNC and robotics, aerospace equipment, ocean engineering equipment and high-tech ships, advanced rail transit, energy-saving and new-energy vehicles, power equipment, agricultural machinery, new materials, and biomedicine/high-performance medical devices [21].
 
@@ -836,9 +836,9 @@ A Sinopec-like process plant sits in the high-impact/high-complexity quadrant. A
 
 ![Maintenance Use Case Leverage Matrix](assets/maintenance-use-case-leverage-matrix.svg)
 
-### 12.4 What NextCMMS should learn from these examples
+### 12.4 What an experimental next-generation CMMS system should learn from these examples
 
-The product lesson is not to build a generic chatbot for factories. It is to make NextCMMS a **maintenance intelligence control plane**:
+The product lesson is not to build a generic chatbot for factories. It is to make the platform a **maintenance intelligence control plane**:
 
 1. Every recommendation is grounded in asset, history, part, policy, and user context.
 2. Every agent has a visible role and bounded tool set.
@@ -903,7 +903,7 @@ Maintenance work is physical, financial, and operational. A wrong recommendation
 
 Multi-agent systems fit CMMS/EAM because maintenance itself is multi-agent. Operators, technicians, planners, storeroom staff, reliability engineers, supervisors, vendors, finance teams, and safety teams already collaborate. The AI architecture should mirror that reality in software: specialized roles, shared context, clear handoffs, visible disagreements, and controlled action.
 
-The NextCMMS MAAI concept is promising because it starts in the right place: agents collaborate, the run meter is visible, the review package is the output, and human approval blocks writes. That is not a limitation. It is the foundation of trust.
+This experimental concept is promising because it starts in the right place: agents collaborate, the run meter is visible, the review package is the output, and human approval blocks writes. That is not a limitation. It is the foundation of trust.
 
 ---
 
@@ -947,7 +947,7 @@ The NextCMMS MAAI concept is promising because it starts in the right place: age
 
 [19] ICLR Blogposts, *Multi-LLM-Agents Debate - Performance, Efficiency, and Scaling*, 2025. https://iclr-blogposts.github.io/2025/blog/mad/
 
-[20] State Council of the People's Republic of China, `国务院关于印发《中国制造2025》的通知`, 2015. https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm
+[20] State Council of the People's Republic of China, `鍥藉姟闄㈠叧浜庡嵃鍙戙€婁腑鍥藉埗閫?025銆嬬殑閫氱煡`, 2015. https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm
 
 [21] Ministry of Finance of the People's Republic of China, public summary of Made in China 2025 strategic tasks and priority sectors, 2015. https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201505/t20150519_1233749.htm
 
@@ -955,7 +955,7 @@ The NextCMMS MAAI concept is promising because it starts in the right place: age
 
 [23] SANY Group, *No. 18 Factory is one of the smartest lighthouse factories in the global heavy industry*. https://www.sanyglobal.com/video/145/
 
-[24] State Grid / NARI Group, `深化人工智能技术应用 打造能源电力新质生产力`, 2025. https://www.sgepri.sgcc.com.cn/html/sgepri/gb/xwzx/zbdt/20250417/386435202504170839000002.shtml
+[24] State Grid / NARI Group, `娣卞寲浜哄伐鏅鸿兘鎶€鏈簲鐢?鎵撻€犺兘婧愮數鍔涙柊璐ㄧ敓浜у姏`, 2025. https://www.sgepri.sgcc.com.cn/html/sgepri/gb/xwzx/zbdt/20250417/386435202504170839000002.shtml
 
 [25] CRRC, *CRRC Launches Two Innovative Green Intelligent Trains at InnoTrans 2024*. https://www.crrcgc.cc/en/2024-09/27/article_2024092715480084389.html
 
@@ -967,9 +967,9 @@ The NextCMMS MAAI concept is promising because it starts in the right place: age
 
 [29] CATL, *Smart Manufacturing*. https://www.catl.com/en/manufacture/
 
-[30] State Grid Jiangsu, `淮安供电用无人机重构电网运维版图——“智”驭苍穹 “翼”动未来`, 2025. https://www.js.sgcc.com.cn/xwzx/jcdt/2025/287.shtml
+[30] State Grid Jiangsu, `娣畨渚涚數鐢ㄦ棤浜烘満閲嶆瀯鐢电綉杩愮淮鐗堝浘鈥斺€斺€滄櫤鈥濋┉鑻嶇┕ 鈥滅考鈥濆姩鏈潵`, 2025. https://www.js.sgcc.com.cn/xwzx/jcdt/2025/287.shtml
 
-[31] State Grid / EPRI, `公司一成果入选首批央企高质量数据集优秀建设成果`, 2025. https://www.epri.sgcc.com.cn/html/chinasperi/gb/jyyw2/xyzx/20250515/856984202505151254000001.shtml
+[31] State Grid / EPRI, `鍏徃涓€鎴愭灉鍏ラ€夐鎵瑰ぎ浼侀珮璐ㄩ噺鏁版嵁闆嗕紭绉€寤鸿鎴愭灉`, 2025. https://www.epri.sgcc.com.cn/html/chinasperi/gb/jyyw2/xyzx/20250515/856984202505151254000001.shtml
 
 [32] Haier, *COSMOPlat*. https://www.haier.com/global/haier-ecosystem/cosmoplat/
 
@@ -982,4 +982,5 @@ The NextCMMS MAAI concept is promising because it starts in the right place: age
 [36] Sinopec Group, *Empowering digital production through technological innovation*. https://www.sinopecgroup.com/group/en/000/000/065/65832.shtml
 
 [37] Midea Industrial Technology. https://industry.midea.com/en
+
 

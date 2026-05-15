@@ -1,4 +1,4 @@
-"""Deterministic agent roles for the NextCMMS MAAI proof-of-concept.
+﻿"""Deterministic agent roles for the experimental agentic CMMS proof-of-concept.
 
 A production implementation can keep the same class boundaries and replace the
 heuristic logic with LLM-backed reasoning, retrieval, and tool use. The key idea
@@ -288,3 +288,4 @@ class DebateModerator:
             next_steps=next_steps,
             blocked_reason=blocked_reason,
         )
+
