@@ -10,6 +10,17 @@
 **Scope:** CMMS, EAM, work orders, preventive maintenance, inventory, policy, audit, human approval, China smart manufacturing examples, Made in China 2025, graphs, charts, and reproducible figure source data  
 **Status:** concept and implementation sketch. The demo does not call an LLM, does not write to a CMMS, and does not automate physical actions.
 
+This repository explores a simple question: what would a trustworthy AI-native CMMS look like if it helped maintenance teams reason before it touched any real system?
+
+Instead of one chatbot doing everything, the concept splits the work across specialist agents. One agent interprets the request, another checks asset context, another checks parts, and another enforces policy. The result is not an automatic write. The result is a review package a human can approve, reject, or revise.
+
+If you are skimming this as a portfolio project, the shortest summary is:
+
+- It is a concept for a next-generation CMMS/EAM system built around multi-agent collaboration.
+- It includes a deterministic Python demo that shows the orchestration flow end to end.
+- It focuses on governance, explainability, and human approval rather than flashy autonomy.
+- It uses China smart-manufacturing examples to show where this model becomes valuable in the real world.
+
 ![Experimental multi-agent CMMS concept](assets/experimental-maai-poc.png)
 
 *Figure 1. Experimental next-generation CMMS concept: one maintenance request is reviewed by intake, asset, inventory, and policy agents. The UI exposes budget, confidence, automation risk, and a human approval gate.*
@@ -51,14 +62,13 @@ The v0.3 update adds a larger figure set. The primary figures are generated SVGs
 
 ## Abstract
 
-Maintenance platforms are moving from digital filing cabinets toward operational decision systems. A classical CMMS records assets, work orders, preventive maintenance plans, parts, labor, and history. EAM extends that view across the asset life cycle, from acquisition and risk management to replacement and disposal. The next generation will do more than store maintenance facts. It will coordinate reasoning across many bounded specialists: an intake agent that understands a request, a reliability agent that knows failure modes, an inventory agent that sees MRO constraints, a policy agent that guards safety and approval rules, a scheduler that understands labor and downtime windows, and a human supervisor who remains accountable for high-impact decisions.
+Most CMMS software is good at storing maintenance data, but much weaker at helping people reason across that data. Real maintenance decisions cut across symptoms, asset history, parts, safety rules, downtime cost, and human approval. That is why this project argues for a multi-agent architecture instead of a single all-purpose assistant.
 
-This paper argues that multi-agent AI systems are not a decorative chatbot layer for CMMS/EAM. They are a practical architecture for handling the messy, cross-functional nature of maintenance work. Maintenance decisions are rarely a single question with a single answer. A noisy compressor may involve asset history, vibration data, spare parts, safety notes, budget, production priority, warranty limits, and human approval. A single assistant can summarize the situation. A multi-agent system can divide the problem, challenge weak evidence, expose trade-offs, produce a review package, and preserve an audit trail.
+In this concept, each agent has one job. An intake agent structures the request. An asset agent checks risk and history. An inventory agent checks spares and lead times. A policy agent decides whether the system may act or must stop for review. Together they produce a clear recommendation package with evidence, risk, confidence, and approval status.
 
-The proposal is deliberately conservative. The future CMMS/EAM platform should not let an LLM silently create work orders, reserve parts, change PM strategy, or send commands into operational technology. It should first become excellent at evidence gathering, structured recommendation, disagreement handling, policy gating, and approval workflows. In this model, autonomy is earned gradually. The first useful outcome is not a robot maintenance planner. It is a trusted review package that a planner can approve in seconds instead of assembling in minutes or hours.
+The key idea is restraint. A useful CMMS AI should help teams make better decisions faster before it starts making changes on their behalf. In this repository, agents can draft and recommend, but live writes stay blocked unless policy, role, tenant settings, and audit requirements allow them.
 
-
-This v0.3 update adds a China-specific lens plus reproducible graphs and charts. Made in China 2025, and the broader move from conventional manufacturing to intelligent manufacturing, make China a particularly strong proving ground for agentic CMMS/EAM. Public examples from Midea, SANY, State Grid, CRRC, Huawei, Sinopec, Haier COSMOPlat, and Baowu/Baosteel show the same pattern from different industries: connected assets produce more signals; operations become more safety- and uptime-sensitive; maintenance decisions depend on cross-functional evidence; and human-governed automation becomes more valuable than an uncontrolled chatbot.
+This v0.3 update adds a China-specific lens plus reproducible graphs and charts. China is a strong proving ground for this idea because connected assets, industrial scale, safety requirements, and intelligent-manufacturing programs all increase the need for explainable, policy-aware maintenance decisions.
 
 ---
 
@@ -84,7 +94,7 @@ This v0.3 update adds a China-specific lens plus reproducible graphs and charts.
 
 ## 1. Why CMMS/EAM needs multi-agent AI
 
-A CMMS is built around maintenance execution. It centralizes maintenance information, documents work, manages work orders, supports preventive maintenance, and keeps asset and task data accessible to maintenance teams. IBM describes CMMS as focused mainly on maintenance, while EAM is broader, covering asset life-cycle performance from acquisition to end of life [3]. ISO 55000:2024 frames asset management as a systematic discipline for realizing value from assets over their life cycles [2]. That distinction matters: the future platform needs to understand both the immediate work order and the long-term asset strategy.
+A CMMS helps teams execute maintenance work. An EAM system goes further and covers the full asset life cycle, from acquisition to replacement. That distinction matters because the next generation of maintenance software cannot stop at recording work orders. It has to connect day-to-day execution with asset risk, cost, policy, and long-term strategy [2][3].
 
 The hard part of maintenance is not that technicians lack forms. It is that real maintenance choices sit between many systems and many kinds of expertise:
 
@@ -98,11 +108,11 @@ The hard part of maintenance is not that technicians lack forms. It is that real
 - Finance cares about spend, capital planning, and maintenance strategy.
 - Cybersecurity cares about integration boundaries, especially when AI tools touch OT, historians, gateways, or IoT systems.
 
-Industry 4.0 makes this problem larger. Predictive maintenance research now treats sensors, machinery data, data-driven models, and decision support as a connected maintenance problem rather than a stand-alone analytics project [13]. This changes the role of a CMMS/EAM platform. It is no longer enough to wait for a work order. The platform needs to interpret weak signals, compare them with history, recommend interventions, and explain why those recommendations are safe.
+Industry 4.0 makes this harder, not simpler. Sensors, telemetry, inspection data, and predictive models create more signals, but they also create more decisions. A future CMMS/EAM platform should not just wait for a work order. It should help interpret weak signals, compare them with history, recommend next steps, and explain why those steps are safe [13].
 
 A single general-purpose AI assistant can help, but it tends to blur roles. It may summarize a request, suggest a part, and mention safety in one response. That feels convenient until the recommendation must be audited. Who checked the spare part? Was the asset criticality considered? Did the model know the tenant policy? Did it confuse a maintenance suggestion with an approved action? Did it use stale information? Did it propose a work order that violates approval rules?
 
-A multi-agent system answers these questions by design. Each agent has a narrower job, a bounded tool set, a structured output, and visible evidence. The point is not to create a crowd of chatbots. The point is to make maintenance reasoning modular enough to test, govern, and improve.
+A multi-agent system addresses these questions by design. Each agent has a narrower job, a bounded tool set, a structured output, and visible evidence. The goal is not to create a crowd of chatbots. The goal is to make maintenance reasoning modular enough to test, govern, explain, and improve.
 
 ---
 
