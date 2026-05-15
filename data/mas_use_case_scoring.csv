@@ -1,0 +1,11 @@
+use_case,decision_complexity,operational_impact,automation_readiness,governance_need,industry
+Work-order triage,1.1,1.2,4.6,1.5,Cross-industry
+Spare-parts allocation,1.7,1.4,3.7,2.2,Cross-industry
+Compliance review,2.2,1.9,3.1,3.2,Cross-industry
+Field inspection scheduling,1.9,2.8,3.8,2.4,Utilities / Facilities
+Compressor diagnostics,2.6,3.6,3.4,3.0,HVAC / Manufacturing
+Root-cause investigation,3.4,3.3,2.6,3.7,Cross-industry
+Grid asset inspection,3.8,4.2,2.8,4.4,Power grid
+Energy optimization,4.2,3.7,3.0,3.9,Manufacturing / Facilities
+Shutdown planning,4.5,4.8,1.9,4.9,Process industry
+Rail fleet O&M,4.8,4.5,2.1,4.8,Rail transit

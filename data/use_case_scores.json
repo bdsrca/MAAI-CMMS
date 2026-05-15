@@ -1,0 +1,18 @@
+{
+  "note": "Illustrative prioritization scores for discussion. They are not benchmark results and should be calibrated with tenant data.",
+  "x_axis": "Decision complexity",
+  "y_axis": "Operational impact",
+  "scale": "1 = low, 7 = high",
+  "use_cases": [
+    {"name": "Work-order triage", "complexity": 1.2, "impact": 1.8, "category": "near-term"},
+    {"name": "Spare-parts allocation", "complexity": 2.0, "impact": 2.0, "category": "near-term"},
+    {"name": "Compliance review", "complexity": 2.8, "impact": 2.7, "category": "near-term"},
+    {"name": "Field inspection scheduling", "complexity": 2.1, "impact": 4.0, "category": "near-term"},
+    {"name": "Compressor diagnostics", "complexity": 3.2, "impact": 5.0, "category": "diagnostic"},
+    {"name": "Root-cause investigation", "complexity": 4.8, "impact": 4.6, "category": "diagnostic"},
+    {"name": "Grid asset inspection", "complexity": 5.3, "impact": 5.7, "category": "safety-critical"},
+    {"name": "Energy optimization", "complexity": 6.0, "impact": 5.2, "category": "optimization"},
+    {"name": "Shutdown planning", "complexity": 6.0, "impact": 6.7, "category": "safety-critical"},
+    {"name": "Rail fleet O&M", "complexity": 6.8, "impact": 6.4, "category": "safety-critical"}
+  ]
+}

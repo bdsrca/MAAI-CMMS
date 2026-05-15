@@ -1,0 +1,66 @@
+[
+  {
+    "company": "Midea Building Technologies",
+    "sector": "HVAC, chillers, smart manufacturing",
+    "public_signal": "Chongqing chiller lighthouse factory described by Midea as a full-process AI-empowered chiller lighthouse factory.",
+    "why_it_matters_for_cmms_eam": "A chiller factory connects production assets, energy performance, quality data, and equipment maintenance. It is a strong proving ground for agents that coordinate asset health, energy optimization, spare parts, and policy-aware work orders.",
+    "agentic_use_case": "AI-assisted compressor diagnostics and energy-aware maintenance planning",
+    "source": "https://mbt.midea.com/global/news/ai-zero-carbon--the-world-s-first-fully-ai-powered-chiller-light"
+  },
+  {
+    "company": "SANY Group",
+    "sector": "Heavy equipment and construction machinery",
+    "public_signal": "SANY describes Changsha No. 18 Factory as a 100,000-square-meter intelligent manufacturing pilot factory and a lighthouse-factory benchmark for heavy industry.",
+    "why_it_matters_for_cmms_eam": "Heavy equipment companies bridge factory maintenance, field service, telematics, warranty, and parts logistics. A CMMS/EAM MAS can coordinate plant agents and fleet-service agents around the same asset history.",
+    "agentic_use_case": "Factory-to-field service loop for excavators, concrete pumps, and critical equipment fleets",
+    "source": "https://www.sanyglobal.com/video/145/"
+  },
+  {
+    "company": "State Grid ecosystem",
+    "sector": "Power grid operations and transmission assets",
+    "public_signal": "State Grid materials describe AI-assisted transmission-line inspection, drone image defect recognition, and large-scale intelligent inspection programs.",
+    "why_it_matters_for_cmms_eam": "Grid operations are inspection-heavy, safety-critical, geographically distributed, and compliance-sensitive. This is exactly where intake, vision, asset-risk, policy, and dispatch agents need to collaborate under guardrails.",
+    "agentic_use_case": "Drone inspection to defect classification to human-approved work order routing",
+    "source": "https://www.sgepri.sgcc.com.cn/html/sgepri/gb/xwzx/zbdt/20250417/386435202504170839000002.shtml"
+  },
+  {
+    "company": "CRRC",
+    "sector": "Rail transit equipment and lifecycle service",
+    "public_signal": "CRRC describes SmartCare-style intelligent O&M integrating vehicle and ground data to provide lifecycle services that enhance operational safety and reduce maintenance cost.",
+    "why_it_matters_for_cmms_eam": "Rail assets require long-life asset records, safety governance, predictive service, configuration management, and high-confidence approvals. MAS is useful because no single agent should own safety, parts, schedule, and root cause at once.",
+    "agentic_use_case": "Rail-fleet O&M recommendation package with human safety review",
+    "source": "https://www.crrcgc.cc/en/2024-09/27/article_2024092715480084389.html"
+  },
+  {
+    "company": "Huawei Enterprise",
+    "sector": "Industrial digital infrastructure and smart factories",
+    "public_signal": "Huawei describes fully connected factory solutions that connect industrial equipment, integrate IT/OT data, and provide network foundations for upper-layer intelligent applications.",
+    "why_it_matters_for_cmms_eam": "Multi-agent maintenance needs reliable context more than clever text generation. Connectivity, data integration, and edge/cloud infrastructure become the substrate on which asset agents and policy agents run.",
+    "agentic_use_case": "Connected-factory data layer for agentic EAM and explainable maintenance decisions",
+    "source": "https://e.huawei.com/en/industries/manufacturing/production-and-supply/fully-connected-smart-factory"
+  },
+  {
+    "company": "Sinopec",
+    "sector": "Oil, gas, refining, and process industry",
+    "public_signal": "Sinopec public materials describe smart-factory construction, maturity assessment for intelligent manufacturing, and digital-intelligent transformation of refining enterprises.",
+    "why_it_matters_for_cmms_eam": "Process industries need reliability-centered maintenance, shutdown planning, permits, MRO coordination, and strict safety approvals. MAS can turn weak signals into governed recommendations without bypassing policy.",
+    "agentic_use_case": "Policy-aware maintenance and shutdown-planning copilots for process plants",
+    "source": "https://www.sinopecgroup.com/group/en/000/000/067/67304.shtml"
+  },
+  {
+    "company": "Haier COSMOPlat",
+    "sector": "Industrial internet platform and lighthouse-factory enablement",
+    "public_signal": "Haier describes COSMOPlat as an industrial internet platform covering intelligent factory construction, industrial intelligent technology, software/hardware integration, and energy management.",
+    "why_it_matters_for_cmms_eam": "Industrial internet platforms create cross-factory data and process patterns. MAS for CMMS/EAM can reuse those patterns for knowledge capture, standardized work, energy-aware maintenance, and service feedback loops.",
+    "agentic_use_case": "Cross-factory maintenance knowledge network and service feedback loop",
+    "source": "https://www.haier.com/global/haier-ecosystem/cosmoplat/"
+  },
+  {
+    "company": "CATL",
+    "sector": "Battery manufacturing and new-energy industrial operations",
+    "public_signal": "CATL describes intelligent manufacturing using AI, image recognition, machine learning, predictive algorithms, 5G, and lighthouse-factory practices.",
+    "why_it_matters_for_cmms_eam": "Battery manufacturing has dense automation, quality-critical equipment, energy constraints, and high uptime expectations. Agentic EAM can coordinate inspection, maintenance, quality, energy, and parts constraints.",
+    "agentic_use_case": "Quality-linked maintenance for highly automated battery factories",
+    "source": "https://www.catl.com/en/manufacture/"
+  }
+]

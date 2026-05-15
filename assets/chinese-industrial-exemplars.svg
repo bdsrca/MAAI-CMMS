@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1040" viewBox="0 0 1400 1040" role="img" aria-label="NextCMMS MAAI figure">
+  <defs>
+    <style>
+      text { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 32px; font-weight: 800; fill: #0f172a; }
+      .subtitle { font-size: 15px; fill: #475569; }
+      .h2 { font-size: 18px; font-weight: 800; fill: #0f172a; }
+      .h3 { font-size: 14px; font-weight: 800; fill: #1d4ed8; }
+      .small { font-size: 12px; fill: #334155; }
+      .tiny { font-size: 10.5px; fill: #475569; }
+      .badge { font-size: 13px; font-weight: 800; fill: #ffffff; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
+      .soft { fill: #f8fafc; stroke: #dbeafe; }
+      .axis { stroke: #1d4ed8; stroke-width: 2.2; fill: none; }
+      .grid { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 5 7; }
+      .line { stroke: #94a3b8; stroke-width: 1.2; fill: none; }
+      .arrow { stroke: #2563eb; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="blueFill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<text class="title" x="42" y="58">Chinese Industrial Exemplars for MAS-enabled CMMS/EAM</text>
+<text class="subtitle" x="44" y="88">Public examples from smart manufacturing, grid operations, rail, process industry, industrial internet, and battery manufacturing.</text>
+<rect x="42" y="130" width="320" height="205" rx="20" fill="#ffffff" stroke="#93c5fd"/>
+<circle cx="70" cy="162" r="18" fill="#2563eb"/><text class="badge" x="70" y="167" text-anchor="middle">1</text>
+<text class="h2" text-anchor="start" x="98" y="168"><tspan x="98" dy="0">Midea Building</tspan><tspan x="98" dy="17">Technologies</tspan></text>
+<rect x="62" y="198" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="64" y="224"><tspan x="64" dy="0">Sector: HVAC, chillers, smart</tspan><tspan x="64" dy="14">manufacturing</tspan></text>
+<text class="tiny" text-anchor="start" x="64" y="264"><tspan x="64" dy="0">Signal: Chongqing chiller lighthouse</tspan><tspan x="64" dy="13">factory described by Midea as a full-</tspan><tspan x="64" dy="13">process AI-empowered chiller lighthouse</tspan><tspan x="64" dy="13">factory.</tspan></text>
+<rect x="60" y="295" width="284" height="28" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="tiny" text-anchor="start" x="70" y="314"><tspan x="70" dy="0">AI-assisted compressor diagnostics and</tspan><tspan x="70" dy="12">energy-aware maintenance planning</tspan></text>
+<rect x="386" y="130" width="320" height="205" rx="20" fill="#ffffff" stroke="#6ee7b7"/>
+<circle cx="414" cy="162" r="18" fill="#2563eb"/><text class="badge" x="414" y="167" text-anchor="middle">2</text>
+<text class="h2" text-anchor="start" x="442" y="168"><tspan x="442" dy="0">SANY Group</tspan></text>
+<rect x="406" y="198" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="408" y="224"><tspan x="408" dy="0">Sector: Heavy equipment and</tspan><tspan x="408" dy="14">construction machinery</tspan></text>
+<text class="tiny" text-anchor="start" x="408" y="264"><tspan x="408" dy="0">Signal: SANY describes Changsha No. 18</tspan><tspan x="408" dy="13">Factory as a 100,000-square-meter</tspan><tspan x="408" dy="13">intelligent manufacturing pilot factory</tspan><tspan x="408" dy="13">and a lighthouse-factory benchmark for</tspan><tspan x="408" dy="13">heavy industry.</tspan></text>
+<rect x="404" y="295" width="284" height="28" rx="10" fill="#ecfdf5" stroke="#6ee7b7"/>
+<text class="tiny" text-anchor="start" x="414" y="314"><tspan x="414" dy="0">Factory-to-field service loop for</tspan><tspan x="414" dy="12">excavators, concrete pumps, and</tspan><tspan x="414" dy="12">critical equipment fleets</tspan></text>
+<rect x="730" y="130" width="320" height="205" rx="20" fill="#ffffff" stroke="#fdba74"/>
+<circle cx="758" cy="162" r="18" fill="#2563eb"/><text class="badge" x="758" y="167" text-anchor="middle">3</text>
+<text class="h2" text-anchor="start" x="786" y="168"><tspan x="786" dy="0">State Grid ecosystem</tspan></text>
+<rect x="750" y="198" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="752" y="224"><tspan x="752" dy="0">Sector: Power grid operations and</tspan><tspan x="752" dy="14">transmission assets</tspan></text>
+<text class="tiny" text-anchor="start" x="752" y="264"><tspan x="752" dy="0">Signal: State Grid materials describe</tspan><tspan x="752" dy="13">AI-assisted transmission-line</tspan><tspan x="752" dy="13">inspection, drone image defect</tspan><tspan x="752" dy="13">recognition, and large-scale</tspan><tspan x="752" dy="13">intelligent inspection programs.</tspan></text>
+<rect x="748" y="295" width="284" height="28" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+<text class="tiny" text-anchor="start" x="758" y="314"><tspan x="758" dy="0">Drone inspection to defect</tspan><tspan x="758" dy="12">classification to human-approved work</tspan><tspan x="758" dy="12">order routing</tspan></text>
+<rect x="1074" y="130" width="320" height="205" rx="20" fill="#ffffff" stroke="#c4b5fd"/>
+<circle cx="1102" cy="162" r="18" fill="#2563eb"/><text class="badge" x="1102" y="167" text-anchor="middle">4</text>
+<text class="h2" text-anchor="start" x="1130" y="168"><tspan x="1130" dy="0">CRRC</tspan></text>
+<rect x="1094" y="198" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="1096" y="224"><tspan x="1096" dy="0">Sector: Rail transit equipment and</tspan><tspan x="1096" dy="14">lifecycle service</tspan></text>
+<text class="tiny" text-anchor="start" x="1096" y="264"><tspan x="1096" dy="0">Signal: CRRC describes SmartCare-style</tspan><tspan x="1096" dy="13">intelligent O&amp;M integrating vehicle and</tspan><tspan x="1096" dy="13">ground data to provide lifecycle</tspan><tspan x="1096" dy="13">services that enhance operational</tspan><tspan x="1096" dy="13">safety and reduce maintenance cost.</tspan></text>
+<rect x="1092" y="295" width="284" height="28" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+<text class="tiny" text-anchor="start" x="1102" y="314"><tspan x="1102" dy="0">Rail-fleet O&amp;M recommendation package</tspan><tspan x="1102" dy="12">with human safety review</tspan></text>
+<rect x="42" y="359" width="320" height="205" rx="20" fill="#ffffff" stroke="#93c5fd"/>
+<circle cx="70" cy="391" r="18" fill="#2563eb"/><text class="badge" x="70" y="396" text-anchor="middle">5</text>
+<text class="h2" text-anchor="start" x="98" y="397"><tspan x="98" dy="0">Huawei Enterprise</tspan></text>
+<rect x="62" y="427" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="64" y="453"><tspan x="64" dy="0">Sector: Industrial digital</tspan><tspan x="64" dy="14">infrastructure and smart factories</tspan></text>
+<text class="tiny" text-anchor="start" x="64" y="493"><tspan x="64" dy="0">Signal: Huawei describes fully</tspan><tspan x="64" dy="13">connected factory solutions that</tspan><tspan x="64" dy="13">connect industrial equipment, integrate</tspan><tspan x="64" dy="13">IT/OT data, and provide network</tspan><tspan x="64" dy="13">foundations for upper-layer intelligent</tspan><tspan x="64" dy="13">applications.</tspan></text>
+<rect x="60" y="524" width="284" height="28" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="tiny" text-anchor="start" x="70" y="543"><tspan x="70" dy="0">Connected-factory data layer for</tspan><tspan x="70" dy="12">agentic EAM and explainable</tspan><tspan x="70" dy="12">maintenance decisions</tspan></text>
+<rect x="386" y="359" width="320" height="205" rx="20" fill="#ffffff" stroke="#6ee7b7"/>
+<circle cx="414" cy="391" r="18" fill="#2563eb"/><text class="badge" x="414" y="396" text-anchor="middle">6</text>
+<text class="h2" text-anchor="start" x="442" y="397"><tspan x="442" dy="0">Sinopec</tspan></text>
+<rect x="406" y="427" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="408" y="453"><tspan x="408" dy="0">Sector: Oil, gas, refining, and</tspan><tspan x="408" dy="14">process industry</tspan></text>
+<text class="tiny" text-anchor="start" x="408" y="493"><tspan x="408" dy="0">Signal: Sinopec public materials</tspan><tspan x="408" dy="13">describe smart-factory construction,</tspan><tspan x="408" dy="13">maturity assessment for intelligent</tspan><tspan x="408" dy="13">manufacturing, and digital-intelligent</tspan><tspan x="408" dy="13">transformation of refining enterprises.</tspan></text>
+<rect x="404" y="524" width="284" height="28" rx="10" fill="#ecfdf5" stroke="#6ee7b7"/>
+<text class="tiny" text-anchor="start" x="414" y="543"><tspan x="414" dy="0">Policy-aware maintenance and shutdown-</tspan><tspan x="414" dy="12">planning copilots for process plants</tspan></text>
+<rect x="730" y="359" width="320" height="205" rx="20" fill="#ffffff" stroke="#fdba74"/>
+<circle cx="758" cy="391" r="18" fill="#2563eb"/><text class="badge" x="758" y="396" text-anchor="middle">7</text>
+<text class="h2" text-anchor="start" x="786" y="397"><tspan x="786" dy="0">Haier COSMOPlat</tspan></text>
+<rect x="750" y="427" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="752" y="453"><tspan x="752" dy="0">Sector: Industrial internet platform</tspan><tspan x="752" dy="14">and lighthouse-factory enablement</tspan></text>
+<text class="tiny" text-anchor="start" x="752" y="493"><tspan x="752" dy="0">Signal: Haier describes COSMOPlat as an</tspan><tspan x="752" dy="13">industrial internet platform covering</tspan><tspan x="752" dy="13">intelligent factory construction,</tspan><tspan x="752" dy="13">industrial intelligent technology,</tspan><tspan x="752" dy="13">software/hardware integration, and</tspan><tspan x="752" dy="13">energy management.</tspan></text>
+<rect x="748" y="524" width="284" height="28" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+<text class="tiny" text-anchor="start" x="758" y="543"><tspan x="758" dy="0">Cross-factory maintenance knowledge</tspan><tspan x="758" dy="12">network and service feedback loop</tspan></text>
+<rect x="1074" y="359" width="320" height="205" rx="20" fill="#ffffff" stroke="#c4b5fd"/>
+<circle cx="1102" cy="391" r="18" fill="#2563eb"/><text class="badge" x="1102" y="396" text-anchor="middle">8</text>
+<text class="h2" text-anchor="start" x="1130" y="397"><tspan x="1130" dy="0">CATL</tspan></text>
+<rect x="1094" y="427" width="280" height="1" fill="#dbeafe"/>
+<text class="small" text-anchor="start" x="1096" y="453"><tspan x="1096" dy="0">Sector: Battery manufacturing and new-</tspan><tspan x="1096" dy="14">energy industrial operations</tspan></text>
+<text class="tiny" text-anchor="start" x="1096" y="493"><tspan x="1096" dy="0">Signal: CATL describes intelligent</tspan><tspan x="1096" dy="13">manufacturing using AI, image</tspan><tspan x="1096" dy="13">recognition, machine learning,</tspan><tspan x="1096" dy="13">predictive algorithms, 5G, and</tspan><tspan x="1096" dy="13">lighthouse-factory practices.</tspan></text>
+<rect x="1092" y="524" width="284" height="28" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+<text class="tiny" text-anchor="start" x="1102" y="543"><tspan x="1102" dy="0">Quality-linked maintenance for highly</tspan><tspan x="1102" dy="12">automated battery factories</tspan></text>
+<rect x="42" y="615" width="1314" height="335" rx="24" fill="#ffffff" stroke="#bfdbfe"/>
+<text class="h2" x="72" y="655">Interpretation for a future CMMS/EAM platform</text>
+<circle cx="78" cy="694" r="12" fill="#2563eb"/><text class="badge" x="78" y="698" text-anchor="middle">1</text>
+<text class="small" text-anchor="start" x="105" y="700"><tspan x="105" dy="0">China&#x27;s installed asset base spans factories, power grids, rail systems, process plants, and new-energy production. This creates many</tspan><tspan x="105" dy="16">high-value contexts for multi-agent maintenance.</tspan></text>
+<circle cx="78" cy="749" r="12" fill="#2563eb"/><text class="badge" x="78" y="753" text-anchor="middle">2</text>
+<text class="small" text-anchor="start" x="105" y="755"><tspan x="105" dy="0">The common pattern is not a single chatbot. It is a loop: connected assets create signals; agents retrieve context; specialists debate;</tspan><tspan x="105" dy="16">policy gates decisions; humans approve high-impact actions.</tspan></text>
+<circle cx="78" cy="804" r="12" fill="#2563eb"/><text class="badge" x="78" y="808" text-anchor="middle">3</text>
+<text class="small" text-anchor="start" x="105" y="810"><tspan x="105" dy="0">The best early product surface is a review package, not full automation: evidence, candidate work order, parts constraints, safety gates,</tspan><tspan x="105" dy="16">confidence, and traceability.</tspan></text>
+<circle cx="78" cy="859" r="12" fill="#2563eb"/><text class="badge" x="78" y="863" text-anchor="middle">4</text>
+<text class="small" text-anchor="start" x="105" y="865"><tspan x="105" dy="0">Mature deployments should connect AI to CMMS/EAM through narrow tools and tenant-scoped policy rather than broad database access or</tspan><tspan x="105" dy="16">uncontrolled write actions.</tspan></text>
+<rect x="42" y="970" width="1314" height="40" rx="14" fill="#f8fafc" stroke="#dbeafe"/>
+<text class="tiny" x="64" y="995">Sources are listed in data/chinese_industrial_examples.json and in the paper references.</text>
+</svg>

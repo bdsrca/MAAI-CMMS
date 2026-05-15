@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="NextCMMS MAAI figure">
+  <defs>
+    <style>
+      text { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 32px; font-weight: 800; fill: #0f172a; }
+      .subtitle { font-size: 15px; fill: #475569; }
+      .h2 { font-size: 18px; font-weight: 800; fill: #0f172a; }
+      .h3 { font-size: 14px; font-weight: 800; fill: #1d4ed8; }
+      .small { font-size: 12px; fill: #334155; }
+      .tiny { font-size: 10.5px; fill: #475569; }
+      .badge { font-size: 13px; font-weight: 800; fill: #ffffff; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
+      .soft { fill: #f8fafc; stroke: #dbeafe; }
+      .axis { stroke: #1d4ed8; stroke-width: 2.2; fill: none; }
+      .grid { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 5 7; }
+      .line { stroke: #94a3b8; stroke-width: 1.2; fill: none; }
+      .arrow { stroke: #2563eb; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="blueFill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<text class="title" x="42" y="58">Where Multi-Agent AI Creates the Highest Leverage</text>
+<text class="subtitle" x="44" y="86">Illustrative prioritization map for future CMMS/EAM programs. Scores are design heuristics, not benchmarks.</text>
+<rect x="36" y="120" width="820" height="535" rx="22" fill="#ffffff" stroke="#bfdbfe"/>
+<line class="grid" x1="252.0" y1="155" x2="252.0" y2="610"/>
+<line class="grid" x1="110" y1="246.0" x2="820" y2="246.0"/>
+<line class="grid" x1="394.0" y1="155" x2="394.0" y2="610"/>
+<line class="grid" x1="110" y1="337.0" x2="820" y2="337.0"/>
+<line class="grid" x1="536.0" y1="155" x2="536.0" y2="610"/>
+<line class="grid" x1="110" y1="428.0" x2="820" y2="428.0"/>
+<line class="grid" x1="678.0" y1="155" x2="678.0" y2="610"/>
+<line class="grid" x1="110" y1="519.0" x2="820" y2="519.0"/>
+<line class="axis" x1="110" y1="610" x2="848" y2="610" marker-end="url(#arrowhead)"/>
+<line class="axis" x1="110" y1="610" x2="110" y2="127" marker-end="url(#arrowhead)"/>
+<text class="h2" x="396" y="646">Decision complexity</text>
+<text class="h2" x="18" y="365" transform="rotate(-90 18 365)">Operational impact</text>
+<text class="small" x="96" y="637">Low</text><text class="small" x="790" y="637">High</text>
+<text class="small" x="70" y="605">Low</text><text class="small" x="70" y="140">High</text>
+<circle cx="127.8" cy="587.2" r="32.0" fill="#ede9fe" stroke="#7c3aed" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="127.75000000000001" y="584.25"><tspan x="127.75000000000001" dy="0">Work-order</tspan><tspan x="127.75000000000001" dy="13">triage</tspan></text>
+<circle cx="234.2" cy="564.5" r="32.1" fill="#d1fae5" stroke="#059669" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="234.25" y="561.5"><tspan x="234.25" dy="0">Spare-parts</tspan><tspan x="234.25" dy="13">allocation</tspan></text>
+<circle cx="323.0" cy="507.6" r="32.5" fill="#dbeafe" stroke="#2563eb" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="323.0" y="504.625"><tspan x="323.0" dy="0">Compliance</tspan><tspan x="323.0" dy="13">review</tspan></text>
+<circle cx="269.8" cy="405.2" r="33.2" fill="#d1fae5" stroke="#059669" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="269.75" y="402.25"><tspan x="269.75" dy="0">Field inspection</tspan><tspan x="269.75" dy="13">scheduling</tspan></text>
+<circle cx="394.0" cy="314.2" r="33.9" fill="#d1fae5" stroke="#059669" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="394.0" y="311.25"><tspan x="394.0" dy="0">Compressor</tspan><tspan x="394.0" dy="13">diagnostics</tspan></text>
+<circle cx="536.0" cy="348.4" r="33.6" fill="#dbeafe" stroke="#2563eb" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="536.0" y="345.375"><tspan x="536.0" dy="0">Root-cause</tspan><tspan x="536.0" dy="13">investigation</tspan></text>
+<circle cx="607.0" cy="246.0" r="34.4" fill="#ffedd5" stroke="#ea580c" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="607.0" y="243.0"><tspan x="607.0" dy="0">Grid asset</tspan><tspan x="607.0" dy="13">inspection</tspan></text>
+<circle cx="678.0" cy="302.9" r="34.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="678.0" y="299.875"><tspan x="678.0" dy="0">Energy</tspan><tspan x="678.0" dy="13">optimization</tspan></text>
+<circle cx="731.2" cy="177.8" r="34.8" fill="#ffedd5" stroke="#ea580c" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="731.25" y="174.75"><tspan x="731.25" dy="0">Shutdown</tspan><tspan x="731.25" dy="13">planning</tspan></text>
+<circle cx="784.5" cy="211.9" r="34.6" fill="#ffedd5" stroke="#ea580c" stroke-width="2" opacity="0.96"/>
+<text class="tiny" text-anchor="middle" x="784.5" y="208.875"><tspan x="784.5" dy="0">Rail fleet O&amp;M</tspan></text>
+<rect x="875" y="120" width="290" height="232" rx="22" fill="#f0fdf4" stroke="#86efac"/>
+<circle cx="918" cy="163" r="24" fill="#10b981"/><text class="badge" x="918" y="168" text-anchor="middle">✓</text>
+<text class="h2" x="954" y="169">Best near-term wins</text>
+<text class="h3" x="904" y="213" fill="#059669">✓</text>
+<text class="small" text-anchor="start" x="930" y="213"><tspan x="930" dy="0">Work-order triage</tspan></text>
+<text class="h3" x="904" y="247" fill="#059669">✓</text>
+<text class="small" text-anchor="start" x="930" y="247"><tspan x="930" dy="0">Policy-aware recommendation</tspan><tspan x="930" dy="13">packages</tspan></text>
+<text class="h3" x="904" y="281" fill="#059669">✓</text>
+<text class="small" text-anchor="start" x="930" y="281"><tspan x="930" dy="0">Spare-parts coordination</tspan></text>
+<text class="h3" x="904" y="315" fill="#059669">✓</text>
+<text class="small" text-anchor="start" x="930" y="315"><tspan x="930" dy="0">Field inspection scheduling</tspan></text>
+<rect x="875" y="380" width="290" height="228" rx="22" fill="#fff7ed" stroke="#fdba74"/>
+<circle cx="918" cy="423" r="24" fill="#f97316"/><text class="badge" x="918" y="428" text-anchor="middle">!</text>
+<text class="h2" x="954" y="429">Tighter governance</text>
+<text class="h3" x="904" y="473" fill="#ea580c">△</text>
+<text class="small" text-anchor="start" x="930" y="473"><tspan x="930" dy="0">Live write actions</tspan></text>
+<text class="h3" x="904" y="507" fill="#ea580c">△</text>
+<text class="small" text-anchor="start" x="930" y="507"><tspan x="930" dy="0">Shutdown planning</tspan></text>
+<text class="h3" x="904" y="541" fill="#ea580c">△</text>
+<text class="small" text-anchor="start" x="930" y="541"><tspan x="930" dy="0">Safety-critical rail and grid</tspan><tspan x="930" dy="13">actions</tspan></text>
+<text class="h3" x="904" y="575" fill="#ea580c">△</text>
+<text class="small" text-anchor="start" x="930" y="575"><tspan x="930" dy="0">Autonomous optimization loops</tspan></text>
+<rect x="36" y="675" width="1128" height="60" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text class="h3" x="64" y="711">Legend:</text>
+<text class="small" x="124" y="711">Left-bottom cases are safer starting points. Upper-right cases usually create more value but require stronger policy gates, human approval, and audit evidence.</text>
+</svg>

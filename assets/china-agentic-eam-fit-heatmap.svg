@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fbff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1500" height="880" rx="34" fill="url(#bg)"/>
+  <text x="44.0" y="70.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#0f172a" text-anchor="start">Agentic EAM Fit Matrix for Chinese Industrial Examples</text>
+<text x="46.0" y="104.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#475569" text-anchor="start">Illustrative scores show where multi-agent maintenance reasoning has the strongest structural fit.</text>
+<line x1="44.0" y1="130.0" x2="1456.0" y2="130.0" stroke="#dbeafe" stroke-width="2" stroke-linecap="round"/>
+<rect x="55.0" y="175.0" width="1390.0" height="590.0" rx="24.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#shadow)"/>
+<text x="90.0" y="226.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#0f172a" text-anchor="start">Company</text>
+<text x="384.0" y="215.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Connected asset</text>
+<text x="384.0" y="230.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">signal</text>
+<text x="552.0" y="215.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Safety criticality</text>
+<text x="720.0" y="215.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Parts/service</text>
+<text x="720.0" y="230.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">complexity</text>
+<text x="888.0" y="215.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Policy/compliance</text>
+<text x="888.0" y="230.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">intensity</text>
+<text x="1056.0" y="215.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Lifecycle learning</text>
+<text x="1056.0" y="230.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">loop</text>
+<text x="90.0" y="289.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">Midea / MBT</text>
+<text x="90.0" y="311.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">HVAC, chillers, compressors...</text>
+<rect x="308.0" y="255.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="283.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="255.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="283.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="644.0" y="255.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="283.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="812.0" y="255.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="283.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="980.0" y="255.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="283.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="90.0" y="347.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">SANY Group</text>
+<text x="90.0" y="369.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Heavy equipment...</text>
+<rect x="308.0" y="313.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="341.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="313.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="341.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="644.0" y="313.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="341.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="812.0" y="313.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="341.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="980.0" y="313.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="341.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90.0" y="405.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">State Grid</text>
+<text x="90.0" y="427.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Power grid operations and...</text>
+<rect x="308.0" y="371.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="399.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="371.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="399.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="644.0" y="371.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="399.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="812.0" y="371.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="399.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="980.0" y="371.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="399.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90.0" y="463.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">CRRC</text>
+<text x="90.0" y="485.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Rail transit equipment and...</text>
+<rect x="308.0" y="429.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="457.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="429.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="457.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="644.0" y="429.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="457.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="812.0" y="429.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="457.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="980.0" y="429.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="457.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90.0" y="521.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">Huawei</text>
+<text x="90.0" y="543.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Industrial digital...</text>
+<rect x="308.0" y="487.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="515.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="487.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="515.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="644.0" y="487.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="515.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="812.0" y="487.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="515.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="980.0" y="487.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="515.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="90.0" y="579.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">Sinopec</text>
+<text x="90.0" y="601.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Oil, gas, refining...</text>
+<rect x="308.0" y="545.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="573.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="476.0" y="545.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="573.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="644.0" y="545.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="573.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="812.0" y="545.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="573.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="980.0" y="545.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="573.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90.0" y="637.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">Haier COSMOPlat</text>
+<text x="90.0" y="659.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Industrial Internet platform...</text>
+<rect x="308.0" y="603.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="631.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="476.0" y="603.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="631.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="644.0" y="603.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="631.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="812.0" y="603.0" width="152.0" height="42.0" rx="12.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="631.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="980.0" y="603.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="631.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<text x="90.0" y="695.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a" text-anchor="start">Baowu / Baosteel</text>
+<text x="90.0" y="717.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#475569" text-anchor="start">Steel manufacturing and...</text>
+<rect x="308.0" y="661.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="384.0" y="689.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="476.0" y="661.0" width="152.0" height="42.0" rx="12.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.0" />
+<text x="552.0" y="689.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+<rect x="644.0" y="661.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="720.0" y="689.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="812.0" y="661.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="888.0" y="689.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="980.0" y="661.0" width="152.0" height="42.0" rx="12.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1.0" />
+<text x="1056.0" y="689.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<text x="65.0" y="800.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#475569" text-anchor="start">Scale: 1 = low structural fit, 5 = very strong structural fit. Scores are analytical, not public company KPIs.</text>
+<rect x="970.0" y="767.0" width="36.0" height="24.0" rx="6.0" fill="#eff6ff" stroke="#ffffff" stroke-width="1" />
+<text x="988.0" y="784.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="1016.0" y="767.0" width="36.0" height="24.0" rx="6.0" fill="#bfdbfe" stroke="#ffffff" stroke-width="1" />
+<text x="1034.0" y="784.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#0f172a" text-anchor="middle">2</text>
+<rect x="1062.0" y="767.0" width="36.0" height="24.0" rx="6.0" fill="#93c5fd" stroke="#ffffff" stroke-width="1" />
+<text x="1080.0" y="784.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="1108.0" y="767.0" width="36.0" height="24.0" rx="6.0" fill="#60a5fa" stroke="#ffffff" stroke-width="1" />
+<text x="1126.0" y="784.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+<rect x="1154.0" y="767.0" width="36.0" height="24.0" rx="6.0" fill="#2563eb" stroke="#ffffff" stroke-width="1" />
+<text x="1172.0" y="784.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">5</text>
+</svg>

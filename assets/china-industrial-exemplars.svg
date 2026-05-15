@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fbff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="1020" rx="34" fill="url(#bg)"/>
+  <text x="44.0" y="70.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#0f172a" text-anchor="start">Chinese Industrial Exemplars for Agentic CMMS/EAM</text>
+<text x="46.0" y="104.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#475569" text-anchor="start">Public digitalization signals mapped to future multi-agent maintenance and asset-management patterns.</text>
+<line x1="44.0" y1="130.0" x2="1556.0" y2="130.0" stroke="#dbeafe" stroke-width="2" stroke-linecap="round"/>
+<rect x="55.0" y="175.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#2563eb" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="89.0" cy="211.0" r="20.0" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="89.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#2563eb" text-anchor="middle">1</text>
+<text x="120.0" y="217.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Midea / MBT</text>
+<line x1="77.0" y1="255.0" x2="319.0" y2="255.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="77.0" y="287.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#2563eb" text-anchor="start">Sector</text>
+<text x="77.0" y="311.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">HVAC, chillers, compressors, smart</text>
+<text x="77.0" y="328.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">manufacturing</text>
+<text x="77.0" y="352.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#2563eb" text-anchor="start">Public digital / AI signal</text>
+<text x="77.0" y="376.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">MBT described its Chongqing site as</text>
+<text x="77.0" y="393.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">a full-process AI-empowered chiller</text>
+<text x="77.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">lighthouse factory; Midea Industrial...</text>
+<rect x="77.0" y="423.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="77.0" y="423.0" width="136.8" height="8.0" rx="4.0" fill="#2563eb" stroke="#2563eb" stroke-width="0" />
+<text x="267.0" y="431.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="start">MAS fit 3.8/5</text>
+<rect x="367.0" y="175.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#059669" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="401.0" cy="211.0" r="20.0" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="401.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#059669" text-anchor="middle">2</text>
+<text x="432.0" y="217.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">SANY Group</text>
+<line x1="389.0" y1="255.0" x2="631.0" y2="255.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="389.0" y="287.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#059669" text-anchor="start">Sector</text>
+<text x="389.0" y="311.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Heavy equipment, construction</text>
+<text x="389.0" y="328.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">machinery, intelligent factories</text>
+<text x="389.0" y="352.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#059669" text-anchor="start">Public digital / AI signal</text>
+<text x="389.0" y="376.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">SANY describes No. 18 Factory as a</text>
+<text x="389.0" y="393.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">100,000-square-meter intelligent</text>
+<text x="389.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">manufacturing pilot factory approved...</text>
+<rect x="389.0" y="423.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="389.0" y="423.0" width="158.4" height="8.0" rx="4.0" fill="#059669" stroke="#059669" stroke-width="0" />
+<text x="579.0" y="431.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#059669" text-anchor="start">MAS fit 4.4/5</text>
+<rect x="679.0" y="175.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#d97706" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="713.0" cy="211.0" r="20.0" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+<text x="713.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#d97706" text-anchor="middle">3</text>
+<text x="744.0" y="217.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">State Grid</text>
+<line x1="701.0" y1="255.0" x2="943.0" y2="255.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="701.0" y="287.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#d97706" text-anchor="start">Sector</text>
+<text x="701.0" y="311.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Power grid operations and inspection</text>
+<text x="701.0" y="352.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#d97706" text-anchor="start">Public digital / AI signal</text>
+<text x="701.0" y="376.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">State Grid examples show drone</text>
+<text x="701.0" y="393.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">inspection, AI defect recognition,</text>
+<text x="701.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">work-order dispatch, and data-set...</text>
+<rect x="701.0" y="423.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="701.0" y="423.0" width="165.6" height="8.0" rx="4.0" fill="#d97706" stroke="#d97706" stroke-width="0" />
+<text x="891.0" y="431.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#d97706" text-anchor="start">MAS fit 4.6/5</text>
+<rect x="991.0" y="175.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#7c3aed" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="1025.0" cy="211.0" r="20.0" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1025.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#7c3aed" text-anchor="middle">4</text>
+<text x="1056.0" y="217.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">CRRC</text>
+<line x1="1013.0" y1="255.0" x2="1255.0" y2="255.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1013.0" y="287.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#7c3aed" text-anchor="start">Sector</text>
+<text x="1013.0" y="311.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Rail transit equipment and lifecycle</text>
+<text x="1013.0" y="328.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">service</text>
+<text x="1013.0" y="352.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#7c3aed" text-anchor="start">Public digital / AI signal</text>
+<text x="1013.0" y="376.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">CRRC describes SmartCare intelligent</text>
+<text x="1013.0" y="393.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">O&amp;M as integrating vehicle and</text>
+<text x="1013.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">ground data to provide lifecycle...</text>
+<rect x="1013.0" y="423.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="1013.0" y="423.0" width="172.8" height="8.0" rx="4.0" fill="#7c3aed" stroke="#7c3aed" stroke-width="0" />
+<text x="1203.0" y="431.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#7c3aed" text-anchor="start">MAS fit 4.8/5</text>
+<rect x="55.0" y="475.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#0f766e" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="89.0" cy="511.0" r="20.0" fill="#ccfbf1" stroke="#0f766e" stroke-width="1.5"/>
+<text x="89.0" y="518.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#0f766e" text-anchor="middle">5</text>
+<text x="120.0" y="517.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Huawei</text>
+<line x1="77.0" y1="555.0" x2="319.0" y2="555.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="77.0" y="587.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f766e" text-anchor="start">Sector</text>
+<text x="77.0" y="611.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Industrial digital infrastructure</text>
+<text x="77.0" y="628.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">and smart-factory connectivity</text>
+<text x="77.0" y="652.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#0f766e" text-anchor="start">Public digital / AI signal</text>
+<text x="77.0" y="676.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Huawei&#x27;s fully connected factory</text>
+<text x="77.0" y="693.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">materials emphasize IT/OT</text>
+<text x="77.0" y="710.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">convergence, Wi-Fi 7/UWB, visualized...</text>
+<rect x="77.0" y="723.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="77.0" y="723.0" width="136.8" height="8.0" rx="4.0" fill="#0f766e" stroke="#0f766e" stroke-width="0" />
+<text x="267.0" y="731.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#0f766e" text-anchor="start">MAS fit 3.8/5</text>
+<rect x="367.0" y="475.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#ea580c" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="401.0" cy="511.0" r="20.0" fill="#ffedd5" stroke="#ea580c" stroke-width="1.5"/>
+<text x="401.0" y="518.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#ea580c" text-anchor="middle">6</text>
+<text x="432.0" y="517.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Sinopec</text>
+<line x1="389.0" y1="555.0" x2="631.0" y2="555.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="389.0" y="587.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#ea580c" text-anchor="start">Sector</text>
+<text x="389.0" y="611.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Oil, gas, refining, petrochemical</text>
+<text x="389.0" y="628.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">process operations</text>
+<text x="389.0" y="652.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#ea580c" text-anchor="start">Public digital / AI signal</text>
+<text x="389.0" y="676.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Sinopec describes smart-factory</text>
+<text x="389.0" y="693.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">construction on the Sinopec Smart</text>
+<text x="389.0" y="710.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Cloud industrial Internet platform...</text>
+<rect x="389.0" y="723.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="389.0" y="723.0" width="172.8" height="8.0" rx="4.0" fill="#ea580c" stroke="#ea580c" stroke-width="0" />
+<text x="579.0" y="731.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#ea580c" text-anchor="start">MAS fit 4.8/5</text>
+<rect x="679.0" y="475.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#2563eb" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="713.0" cy="511.0" r="20.0" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="713.0" y="518.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#2563eb" text-anchor="middle">7</text>
+<text x="744.0" y="517.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Haier COSMOPlat</text>
+<line x1="701.0" y1="555.0" x2="943.0" y2="555.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="701.0" y="587.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#2563eb" text-anchor="start">Sector</text>
+<text x="701.0" y="611.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Industrial Internet platform and</text>
+<text x="701.0" y="628.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">mass customization</text>
+<text x="701.0" y="652.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#2563eb" text-anchor="start">Public digital / AI signal</text>
+<text x="701.0" y="676.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Haier describes COSMOPlat as an</text>
+<text x="701.0" y="693.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">industrial Internet platform</text>
+<text x="701.0" y="710.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">covering industrial platform...</text>
+<rect x="701.0" y="723.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="701.0" y="723.0" width="136.8" height="8.0" rx="4.0" fill="#2563eb" stroke="#2563eb" stroke-width="0" />
+<text x="891.0" y="731.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="start">MAS fit 3.8/5</text>
+<rect x="991.0" y="475.0" width="286.0" height="270.0" rx="24.0" fill="url(#card)" stroke="#059669" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="1025.0" cy="511.0" r="20.0" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+<text x="1025.0" y="518.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" fill="#059669" text-anchor="middle">8</text>
+<text x="1056.0" y="517.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Baowu / Baosteel</text>
+<line x1="1013.0" y1="555.0" x2="1255.0" y2="555.0" stroke="#e2e8f0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1013.0" y="587.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#059669" text-anchor="start">Sector</text>
+<text x="1013.0" y="611.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Steel manufacturing and heavy</text>
+<text x="1013.0" y="628.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">process assets</text>
+<text x="1013.0" y="652.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" fill="#059669" text-anchor="start">Public digital / AI signal</text>
+<text x="1013.0" y="676.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">Baosteel presents BaoVision online</text>
+<text x="1013.0" y="693.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">surface inspection technology for</text>
+<text x="1013.0" y="710.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#475569" text-anchor="start">high-speed production, and public...</text>
+<rect x="1013.0" y="723.0" width="180.0" height="8.0" rx="4.0" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="0" />
+<rect x="1013.0" y="723.0" width="151.2" height="8.0" rx="4.0" fill="#059669" stroke="#059669" stroke-width="0" />
+<text x="1203.0" y="731.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#059669" text-anchor="start">MAS fit 4.2/5</text>
+<rect x="1315.0" y="175.0" width="230.0" height="570.0" rx="26.0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1343.0" y="221.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">Why China</text>
+<text x="1343.0" y="251.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="start">matters</text>
+<circle cx="1347.0" cy="307.0" r="16.0" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1347.0" y="313.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="middle">1</text>
+<text x="1373.0" y="300.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="start">Huge installed base</text>
+<text x="1373.0" y="322.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">More assets, more</text>
+<text x="1373.0" y="338.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">histories, more repeat...</text>
+<circle cx="1347.0" cy="391.0" r="16.0" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1347.0" y="397.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="middle">2</text>
+<text x="1373.0" y="384.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="start">Fast digitalization</text>
+<text x="1373.0" y="406.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Industrial Internet,</text>
+<text x="1373.0" y="422.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">5G, IoT, AI, cloud and...</text>
+<circle cx="1347.0" cy="475.0" r="16.0" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1347.0" y="481.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="middle">3</text>
+<text x="1373.0" y="468.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="start">Policy direction</text>
+<text x="1373.0" y="490.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Made in China 2025</text>
+<text x="1373.0" y="506.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">prioritized intelligent...</text>
+<circle cx="1347.0" cy="559.0" r="16.0" fill="#dbeafe" stroke="#059669" stroke-width="1.5"/>
+<text x="1347.0" y="565.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="middle">4</text>
+<text x="1373.0" y="552.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="start">Safety pressure</text>
+<text x="1373.0" y="574.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Grid, rail,</text>
+<text x="1373.0" y="590.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">petrochemical and steel...</text>
+<circle cx="1347.0" cy="643.0" r="16.0" fill="#dbeafe" stroke="#059669" stroke-width="1.5"/>
+<text x="1347.0" y="649.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#2563eb" text-anchor="middle">5</text>
+<text x="1373.0" y="636.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" fill="#0f172a" text-anchor="start">Human + AI fit</text>
+<text x="1373.0" y="658.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Skilled planners can</text>
+<text x="1373.0" y="674.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">supervise agent...</text>
+<rect x="55.0" y="875.0" width="1490.0" height="86.0" rx="22.0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+<text x="82.0" y="910.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0f172a" text-anchor="start">Important boundary</text>
+<text x="82.0" y="938.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" fill="#475569" text-anchor="start">The chart maps public signals to a future CMMS/EAM architecture. It does not claim that any listed company operates this exact multi-agent system today.</text>
+</svg>

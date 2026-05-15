@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="diagram">
+  <defs>
+    <style>
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 13px Arial, sans-serif; fill: #475569; }
+      .box-title { font: 700 14px Arial, sans-serif; fill: #0f172a; }
+      .box-text { font: 400 12px Arial, sans-serif; fill: #334155; }
+      .small { font: 400 11px Arial, sans-serif; fill: #475569; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; rx: 14; }
+      .blue { fill: #eff6ff; stroke: #93c5fd; }
+      .green { fill: #ecfdf5; stroke: #86efac; }
+      .amber { fill: #fffbeb; stroke: #fcd34d; }
+      .red { fill: #fff1f2; stroke: #fda4af; }
+      .dark { fill: #f8fafc; stroke: #94a3b8; }
+      .arrow { stroke: #64748b; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" fill="#f8fbff"/>
+  <text class="title" x="40" y="48">Future CMMS/EAM Multi-Agent Architecture</text>
+  <text class="subtitle" x="40" y="72">A bounded, auditable agent team around the maintenance system of record.</text>
+  <rect class="box blue" x="40" y="110" width="210" height="120" rx="14"/>
+  <text class="box-title" x="56" y="135">Experience Layer</text>
+  <text class="box-text" x="56" y="158">Dashboard AI Insights</text>
+  <text class="box-text" x="56" y="176">Planner review package</text>
+  <text class="box-text" x="56" y="194">Technician mobile copilots</text>
+  <text class="box-text" x="56" y="212">Admin guardrails</text>
+  <rect class="box green" x="300" y="110" width="260" height="120" rx="14"/>
+  <text class="box-title" x="316" y="135">Orchestration Layer</text>
+  <text class="box-text" x="316" y="158">AgentContext, AgentTask</text>
+  <text class="box-text" x="316" y="176">AgentResult, OrchestrationRun</text>
+  <text class="box-text" x="316" y="194">Budget meter and audit trace</text>
+  <text class="box-text" x="316" y="212">Human approval gate</text>
+  <rect class="box amber" x="610" y="110" width="250" height="120" rx="14"/>
+  <text class="box-title" x="626" y="135">Agent Runtime</text>
+  <text class="box-text" x="626" y="158">Intake, Asset, Inventory</text>
+  <text class="box-text" x="626" y="176">Scheduler, Policy, Budget</text>
+  <text class="box-text" x="626" y="194">Reliability and Knowledge</text>
+  <text class="box-text" x="626" y="212">Bounded debate protocol</text>
+  <rect class="box dark" x="910" y="110" width="250" height="120" rx="14"/>
+  <text class="box-title" x="926" y="135">Tool and Integration Layer</text>
+  <text class="box-text" x="926" y="158">CMMS/EAM APIs</text>
+  <text class="box-text" x="926" y="176">ERP and MRO purchasing</text>
+  <text class="box-text" x="926" y="194">SCADA/Historians/IoT</text>
+  <text class="box-text" x="926" y="212">Documents and manuals</text>
+  <path class="arrow" d="M250 170 H300"/>
+  <path class="arrow" d="M560 170 H610"/>
+  <path class="arrow" d="M860 170 H910"/>
+  <rect class="box blue" x="120" y="300" width="210" height="120" rx="14"/>
+  <text class="box-title" x="136" y="325">Memory and Retrieval</text>
+  <text class="box-text" x="136" y="348">Asset history</text>
+  <text class="box-text" x="136" y="366">Failure modes</text>
+  <text class="box-text" x="136" y="384">Manuals and SOPs</text>
+  <text class="box-text" x="136" y="402">Source-linked evidence</text>
+  <rect class="box red" x="380" y="300" width="210" height="120" rx="14"/>
+  <text class="box-title" x="396" y="325">Governance Plane</text>
+  <text class="box-text" x="396" y="348">Tenant feature flags</text>
+  <text class="box-text" x="396" y="366">RBAC and data boundaries</text>
+  <text class="box-text" x="396" y="384">No silent writes</text>
+  <text class="box-text" x="396" y="402">Policy-as-code</text>
+  <rect class="box green" x="640" y="300" width="210" height="120" rx="14"/>
+  <text class="box-title" x="656" y="325">Observability</text>
+  <text class="box-text" x="656" y="348">Traces and spans</text>
+  <text class="box-text" x="656" y="366">Tool-call ledger</text>
+  <text class="box-text" x="656" y="384">Cost and latency</text>
+  <text class="box-text" x="656" y="402">Evaluation replay</text>
+  <rect class="box amber" x="900" y="300" width="210" height="120" rx="14"/>
+  <text class="box-title" x="916" y="325">Learning Loop</text>
+  <text class="box-text" x="916" y="348">Human feedback</text>
+  <text class="box-text" x="916" y="366">Failure outcomes</text>
+  <text class="box-text" x="916" y="384">PM effectiveness</text>
+  <text class="box-text" x="916" y="402">Prompt and policy revisions</text>
+  <path class="arrow" d="M715 230 V300"/>
+  <path class="arrow" d="M715 420 V475 H215 V420"/>
+  <path class="arrow" d="M485 300 V245 H430 V230"/>
+  <path class="arrow" d="M745 300 V245 H735 V230"/>
+  <path class="arrow" d="M1005 300 V245 H1035 V230"/>
+  <rect class="box dark" x="60" y="520" width="1080" height="150" rx="14"/>
+  <text class="box-title" x="76" y="545">Maintenance Intelligence Loop</text>
+  <text class="box-text" x="76" y="568">1. Sense a work request, alarm, inspection note, or PM exception.</text>
+  <text class="box-text" x="76" y="586">2. Retrieve trusted asset, work-order, part, policy, and telemetry context.</text>
+  <text class="box-text" x="76" y="604">3. Let specialized agents produce typed findings with evidence and confidence.</text>
+  <text class="box-text" x="76" y="622">4. Use bounded debate only where risk or ambiguity is material.</text>
+  <text class="box-text" x="76" y="640">5. Produce a review package; execute writes only after policy and human approval.</text>
+  <text class="box-text" x="76" y="658">6. Learn from outcomes without breaking the system of record.</text>
+</svg>

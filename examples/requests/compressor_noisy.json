@@ -1,0 +1,17 @@
+{
+  "request_id": "REQ-1001",
+  "tenant_id": "demo-tenant",
+  "site_id": "PLANT-01",
+  "asset_id": "COMP-04",
+  "description": "Compressor noisy",
+  "reported_by": "operator",
+  "priority": "normal",
+  "telemetry": {
+    "vibration_mm_s": 8.1,
+    "temperature_c": 78.0
+  },
+  "metadata": {
+    "line": "Packaging Line 2",
+    "shift": "B"
+  }
+}

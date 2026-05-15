@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="diagram">
+  <defs>
+    <style>
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 13px Arial, sans-serif; fill: #475569; }
+      .box-title { font: 700 14px Arial, sans-serif; fill: #0f172a; }
+      .box-text { font: 400 12px Arial, sans-serif; fill: #334155; }
+      .small { font: 400 11px Arial, sans-serif; fill: #475569; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; rx: 14; }
+      .blue { fill: #eff6ff; stroke: #93c5fd; }
+      .green { fill: #ecfdf5; stroke: #86efac; }
+      .amber { fill: #fffbeb; stroke: #fcd34d; }
+      .red { fill: #fff1f2; stroke: #fda4af; }
+      .dark { fill: #f8fafc; stroke: #94a3b8; }
+      .arrow { stroke: #64748b; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="560" fill="#fbfdff"/>
+  <text class="title" x="40" y="48">Agent Contract for CMMS/EAM</text>
+  <text class="subtitle" x="40" y="72">A production agent is a bounded service with inputs, tools, output schema, policy, and audit.</text>
+  <rect class="box blue" x="70" y="130" width="220" height="130" rx="14"/>
+  <text class="box-title" x="86" y="155">Inputs</text>
+  <text class="box-text" x="86" y="178">AgentContext</text>
+  <text class="box-text" x="86" y="196">Tenant scope</text>
+  <text class="box-text" x="86" y="214">Asset and WO context</text>
+  <text class="box-text" x="86" y="232">Evidence references</text>
+  <rect class="box amber" x="390" y="130" width="220" height="130" rx="14"/>
+  <text class="box-title" x="406" y="155">Agent Role</text>
+  <text class="box-text" x="406" y="178">Role prompt or policy</text>
+  <text class="box-text" x="406" y="196">Allowed tools</text>
+  <text class="box-text" x="406" y="214">Budget</text>
+  <text class="box-text" x="406" y="232">Quality checklist</text>
+  <rect class="box green" x="710" y="130" width="220" height="130" rx="14"/>
+  <text class="box-title" x="726" y="155">Outputs</text>
+  <text class="box-text" x="726" y="178">AgentResult schema</text>
+  <text class="box-text" x="726" y="196">Verdict and confidence</text>
+  <text class="box-text" x="726" y="214">Risks and evidence</text>
+  <text class="box-text" x="726" y="232">Proposed writes</text>
+  <path class="arrow" d="M290 195 H390"/>
+  <path class="arrow" d="M610 195 H710"/>
+  <rect class="box red" x="170" y="340" width="260" height="120" rx="14"/>
+  <text class="box-title" x="186" y="365">Control Plane</text>
+  <text class="box-text" x="186" y="388">RBAC and policy-as-code</text>
+  <text class="box-text" x="186" y="406">Human approval gate</text>
+  <text class="box-text" x="186" y="424">Cost and tool limits</text>
+  <rect class="box dark" x="560" y="340" width="260" height="120" rx="14"/>
+  <text class="box-title" x="576" y="365">Audit Plane</text>
+  <text class="box-text" x="576" y="388">Trace every decision</text>
+  <text class="box-text" x="576" y="406">Persist inputs and outputs</text>
+  <text class="box-text" x="576" y="424">Replay against golden sets</text>
+  <path class="arrow" d="M500 260 V340 H300"/>
+  <path class="arrow" d="M500 260 V340 H690"/>
+</svg>

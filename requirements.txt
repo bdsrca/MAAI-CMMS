@@ -1,0 +1,2 @@
+# The deterministic demo uses only the Python standard library.
+# Optional for tests: pytest, if you prefer `pytest` over `python -m unittest`.

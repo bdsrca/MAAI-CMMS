@@ -1,0 +1,29 @@
+{
+  "note": "Policy facts are based on public State Council and MIIT materials. Agentic EAM mapping is an analytical extension for this paper.",
+  "official_name": "Made in China 2025 / 中国制造2025",
+  "interpretive_phrase": "From 中国制造 to 中国智造",
+  "policy_sources": [
+    "https://www.gov.cn/zhengce/content/2015-05/19/content_9784.htm",
+    "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201505/t20150519_1233749.htm",
+    "https://www.miit.gov.cn/ztzl/lszt/zgzz2025/index.html"
+  ],
+  "priority_sectors": [
+    "Next-generation IT",
+    "High-end CNC and robotics",
+    "Aerospace equipment",
+    "Ocean engineering and high-tech ships",
+    "Advanced rail transit equipment",
+    "Energy-saving and new-energy vehicles",
+    "Power equipment",
+    "Agricultural machinery",
+    "New materials",
+    "Biomedicine and high-performance medical devices"
+  ],
+  "agentic_eam_mapping": [
+    {"sector": "High-end CNC and robotics", "eam_angle": "robot cell maintenance, tool wear, PM optimization, safety interlocks"},
+    {"sector": "Advanced rail transit equipment", "eam_angle": "fleet reliability, depot scheduling, safety-critical approval workflows"},
+    {"sector": "Power equipment", "eam_angle": "grid asset inspection, transformer health, emergency repair orchestration"},
+    {"sector": "Energy-saving and new-energy vehicles", "eam_angle": "battery line maintenance, charging infrastructure, warranty feedback loops"},
+    {"sector": "New materials", "eam_angle": "process equipment quality, condition monitoring, root-cause analysis"}
+  ]
+}

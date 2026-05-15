@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="diagram">
+  <defs>
+    <style>
+      .title { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 13px Arial, sans-serif; fill: #475569; }
+      .box-title { font: 700 14px Arial, sans-serif; fill: #0f172a; }
+      .box-text { font: 400 12px Arial, sans-serif; fill: #334155; }
+      .small { font: 400 11px Arial, sans-serif; fill: #475569; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; rx: 14; }
+      .blue { fill: #eff6ff; stroke: #93c5fd; }
+      .green { fill: #ecfdf5; stroke: #86efac; }
+      .amber { fill: #fffbeb; stroke: #fcd34d; }
+      .red { fill: #fff1f2; stroke: #fda4af; }
+      .dark { fill: #f8fafc; stroke: #94a3b8; }
+      .arrow { stroke: #64748b; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="420" fill="#ffffff"/>
+  <text class="title" x="40" y="48">Agentic Work-Order Lifecycle</text>
+  <text class="subtitle" x="40" y="72">From unstructured operator signal to controlled CMMS action.</text>
+  <rect class="box blue" x="40" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="56" y="155">Sense</text>
+  <text class="box-text" x="56" y="178">Operator note</text>
+  <text class="box-text" x="56" y="196">Alarm, inspection</text>
+  <text class="box-text" x="56" y="214">Photo or voice</text>
+  <path class="arrow" d="M200 200 H240"/>
+  <rect class="box green" x="240" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="256" y="155">Parse</text>
+  <text class="box-text" x="256" y="178">Intake agent</text>
+  <text class="box-text" x="256" y="196">Missing fields</text>
+  <text class="box-text" x="256" y="214">Priority hint</text>
+  <path class="arrow" d="M400 200 H440"/>
+  <rect class="box amber" x="440" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="456" y="155">Ground</text>
+  <text class="box-text" x="456" y="178">Asset history</text>
+  <text class="box-text" x="456" y="196">PM and telemetry</text>
+  <text class="box-text" x="456" y="214">Manuals and SOPs</text>
+  <path class="arrow" d="M600 200 H640"/>
+  <rect class="box red" x="640" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="656" y="155">Challenge</text>
+  <text class="box-text" x="656" y="178">Asset vs inventory</text>
+  <text class="box-text" x="656" y="196">Policy vs urgency</text>
+  <text class="box-text" x="656" y="214">Budget vs risk</text>
+  <path class="arrow" d="M800 200 H840"/>
+  <rect class="box blue" x="840" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="856" y="155">Review</text>
+  <text class="box-text" x="856" y="178">Planner package</text>
+  <text class="box-text" x="856" y="196">Confidence and risk</text>
+  <text class="box-text" x="856" y="214">Human approval</text>
+  <path class="arrow" d="M1000 200 H1040"/>
+  <rect class="box green" x="1040" y="130" width="160" height="140" rx="14"/>
+  <text class="box-title" x="1056" y="155">Execute</text>
+  <text class="box-text" x="1056" y="178">WO creation</text>
+  <text class="box-text" x="1056" y="196">Part reservation</text>
+  <text class="box-text" x="1056" y="214">Audit event</text>
+  <text class="small" x="40" y="340">Design rule: the agent team may recommend, draft, and explain. It may not silently change production maintenance records unless the tenant policy, role permissions, and approval gate allow it.</text>
+</svg>

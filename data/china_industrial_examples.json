@@ -1,0 +1,106 @@
+{
+  "note": "Public signals are summarized from cited public sources. The agentic CMMS/EAM implications and fit scores are the author's analysis, not claims that the companies run this exact MAS architecture.",
+  "score_scale": "1 = low relevance, 5 = very strong relevance for the dimension",
+  "dimensions": [
+    "Connected asset signal",
+    "Safety criticality",
+    "Parts/service complexity",
+    "Policy/compliance intensity",
+    "Lifecycle learning loop"
+  ],
+  "examples": [
+    {
+      "company": "Midea / MBT",
+      "sector": "HVAC, chillers, compressors, smart manufacturing",
+      "public_signal": "MBT described its Chongqing site as a full-process AI-empowered chiller lighthouse factory; Midea Industrial Technology also presents a large smart-factory footprint.",
+      "agentic_eam_implication": "Energy-aware chiller maintenance, compressor reliability, spare-parts forecasting, and after-sales service can be connected into one review package.",
+      "candidate_agents": ["Asset Agent", "Energy Agent", "Inventory Agent", "Service Agent", "Policy Agent"],
+      "scores": [5, 3, 4, 3, 4],
+      "sources": [
+        "https://mbt.midea.com/global/news/ai-zero-carbon--the-world-s-first-fully-ai-powered-chiller-light",
+        "https://industry.midea.com/en"
+      ]
+    },
+    {
+      "company": "SANY Group",
+      "sector": "Heavy equipment, construction machinery, intelligent factories",
+      "public_signal": "SANY describes No. 18 Factory as a 100,000-square-meter intelligent manufacturing pilot factory approved by China's Ministry of Industry and Information Technology.",
+      "agentic_eam_implication": "Factory maintenance, machine health, field-service telemetry, warranty, and MRO parts can be orchestrated by specialized agents.",
+      "candidate_agents": ["Fleet Agent", "Asset Agent", "MRO Agent", "Vendor Agent", "Risk Agent"],
+      "scores": [5, 4, 5, 3, 5],
+      "sources": [
+        "https://www.sanyglobal.com/video/145/"
+      ]
+    },
+    {
+      "company": "State Grid",
+      "sector": "Power grid operations and inspection",
+      "public_signal": "State Grid examples show drone inspection, AI defect recognition, work-order dispatch, and data-set construction for transmission-line defect recognition.",
+      "agentic_eam_implication": "Inspection findings can become policy-gated work packages that coordinate asset criticality, weather risk, crew safety, and approval routing.",
+      "candidate_agents": ["Inspection Agent", "Grid Asset Agent", "Safety Agent", "Dispatch Agent", "Policy Agent"],
+      "scores": [5, 5, 3, 5, 5],
+      "sources": [
+        "https://www.js.sgcc.com.cn/xwzx/jcdt/2025/287.shtml",
+        "https://www.epri.sgcc.com.cn/html/chinasperi/gb/jyyw2/xyzx/20250515/856984202505151254000001.shtml"
+      ]
+    },
+    {
+      "company": "CRRC",
+      "sector": "Rail transit equipment and lifecycle service",
+      "public_signal": "CRRC describes SmartCare intelligent O&M as integrating vehicle and ground data to provide lifecycle intelligent operation and maintenance services.",
+      "agentic_eam_implication": "Rail fleet maintenance is ideal for safety-critical, explainable, human-approved multi-agent decisions across vehicles, depots, parts, and service contracts.",
+      "candidate_agents": ["Fleet Agent", "Safety Agent", "Inventory Agent", "Schedule Agent", "Reliability Agent"],
+      "scores": [5, 5, 4, 5, 5],
+      "sources": [
+        "https://www.crrcgc.cc/en/2024-09/27/article_2024092715480084389.html"
+      ]
+    },
+    {
+      "company": "Huawei",
+      "sector": "Industrial digital infrastructure and smart-factory connectivity",
+      "public_signal": "Huawei's fully connected factory materials emphasize IT/OT convergence, Wi-Fi 7/UWB, visualized OT networks, and equipment data transmission.",
+      "agentic_eam_implication": "Agentic CMMS/EAM depends on reliable, governed data flow from machines, networks, edge systems, and enterprise platforms.",
+      "candidate_agents": ["Connectivity Agent", "Data Quality Agent", "Security Agent", "OT Context Agent", "Policy Agent"],
+      "scores": [5, 3, 3, 4, 4],
+      "sources": [
+        "https://e.huawei.com/en/industries/manufacturing/production-and-supply/fully-connected-smart-factory"
+      ]
+    },
+    {
+      "company": "Sinopec",
+      "sector": "Oil, gas, refining, petrochemical process operations",
+      "public_signal": "Sinopec describes smart-factory construction on the Sinopec Smart Cloud industrial Internet platform and closed-loop production optimization.",
+      "agentic_eam_implication": "Process plants need policy-aware maintenance, risk-ranked inspection, turnaround planning, permit/LOTO checks, and spare-parts co-optimization.",
+      "candidate_agents": ["Process Asset Agent", "Permit Agent", "Shutdown Agent", "Inventory Agent", "Risk Agent"],
+      "scores": [4, 5, 5, 5, 5],
+      "sources": [
+        "https://www.sinopecgroup.com/group/en/000/000/041/41714.shtml",
+        "https://www.sinopecgroup.com/group/en/000/000/065/65832.shtml"
+      ]
+    },
+    {
+      "company": "Haier COSMOPlat",
+      "sector": "Industrial Internet platform and mass customization",
+      "public_signal": "Haier describes COSMOPlat as an industrial Internet platform covering industrial platform construction, intelligent factory services, software/hardware integration, and energy management.",
+      "agentic_eam_implication": "A platform that connects factories, users, energy, and ecosystem partners can provide the shared context layer for cross-factory maintenance agents.",
+      "candidate_agents": ["Platform Agent", "Energy Agent", "Factory Agent", "Partner Agent", "Data Agent"],
+      "scores": [5, 3, 3, 3, 5],
+      "sources": [
+        "https://www.haier.com/global/haier-ecosystem/cosmoplat/",
+        "https://cosmoplat.com/en"
+      ]
+    },
+    {
+      "company": "Baowu / Baosteel",
+      "sector": "Steel manufacturing and heavy process assets",
+      "public_signal": "Baosteel presents BaoVision online surface inspection technology for high-speed production, and public reports describe Baowu's broader digital and intelligent transformation.",
+      "agentic_eam_implication": "High-speed process inspection and heavy-asset maintenance can be linked to defect triage, root-cause analysis, reliability improvement, and quality-cost trade-offs.",
+      "candidate_agents": ["Quality Agent", "Process Asset Agent", "Reliability Agent", "Maintenance Agent", "Cost Agent"],
+      "scores": [4, 5, 4, 4, 4],
+      "sources": [
+        "https://rd.baosteel.com/zypt//en/ability/see/abilityDetailsBSSF1/2/19b24dcfb0f747e581d919c6186a6880",
+        "https://english.www.gov.cn/news/202406/23/content_WS66782834c6d0868f4e8e8774.html"
+      ]
+    }
+  ]
+}

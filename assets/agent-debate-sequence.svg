@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="680" viewBox="0 0 1300 680" role="img" aria-label="NextCMMS MAAI figure">
+  <defs>
+    <style>
+      text { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif; }
+      .title { font-size: 32px; font-weight: 800; fill: #0f172a; }
+      .subtitle { font-size: 15px; fill: #475569; }
+      .h2 { font-size: 18px; font-weight: 800; fill: #0f172a; }
+      .h3 { font-size: 14px; font-weight: 800; fill: #1d4ed8; }
+      .small { font-size: 12px; fill: #334155; }
+      .tiny { font-size: 10.5px; fill: #475569; }
+      .badge { font-size: 13px; font-weight: 800; fill: #ffffff; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.2; }
+      .soft { fill: #f8fafc; stroke: #dbeafe; }
+      .axis { stroke: #1d4ed8; stroke-width: 2.2; fill: none; }
+      .grid { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 5 7; }
+      .line { stroke: #94a3b8; stroke-width: 1.2; fill: none; }
+      .arrow { stroke: #2563eb; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+    <linearGradient id="blueFill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+<text class="title" x="42" y="58">Agent Debate Protocol for a Noisy Compressor Request</text>
+<text class="subtitle" x="44" y="88">A concrete example of how specialized agents challenge each other before producing a review package.</text>
+<rect x="60" y="150" width="150" height="60" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="h2" x="135" y="187" text-anchor="middle">Intake</text>
+<line class="line" x1="135" y1="220" x2="135" y2="600" stroke-dasharray="4 7"/>
+<rect x="250" y="150" width="150" height="60" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="h2" x="325" y="187" text-anchor="middle">Asset</text>
+<line class="line" x1="325" y1="220" x2="325" y2="600" stroke-dasharray="4 7"/>
+<rect x="440" y="150" width="150" height="60" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="h2" x="515" y="187" text-anchor="middle">Inventory</text>
+<line class="line" x1="515" y1="220" x2="515" y2="600" stroke-dasharray="4 7"/>
+<rect x="630" y="150" width="150" height="60" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="h2" x="705" y="187" text-anchor="middle">Policy</text>
+<line class="line" x1="705" y1="220" x2="705" y2="600" stroke-dasharray="4 7"/>
+<rect x="820" y="150" width="150" height="60" rx="18" fill="#eff6ff" stroke="#93c5fd"/>
+<text class="h2" x="895" y="187" text-anchor="middle">Cost/Risk</text>
+<line class="line" x1="895" y1="220" x2="895" y2="600" stroke-dasharray="4 7"/>
+<rect x="1010" y="150" width="150" height="60" rx="18" fill="#f0fdf4" stroke="#86efac"/>
+<text class="h2" x="1085" y="187" text-anchor="middle">Human</text>
+<line class="line" x1="1085" y1="220" x2="1085" y2="600" stroke-dasharray="4 7"/>
+<path class="arrow" d="M 135 260 C 230.0 232, 230.0 232, 315 260"/>
+<rect x="150.0" y="230" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="160.0" y="250"><tspan x="160.0" dy="0">Parse symptom and asset</tspan><tspan x="160.0" dy="12">hint</tspan></text>
+<path class="arrow" d="M 325 325 C 420.0 297, 420.0 297, 505 325"/>
+<rect x="340.0" y="295" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="350.0" y="315"><tspan x="350.0" dy="0">Request BOM and part</tspan><tspan x="350.0" dy="12">risk</tspan></text>
+<path class="arrow" d="M 515 390 C 610.0 362, 610.0 362, 695 390"/>
+<rect x="530.0" y="360" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="540.0" y="380"><tspan x="540.0" dy="0">Return shortage / lead-</tspan><tspan x="540.0" dy="12">time constraints</tspan></text>
+<path class="arrow" d="M 705 455 C 800.0 427, 800.0 427, 885 455"/>
+<rect x="720.0" y="425" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="730.0" y="445"><tspan x="730.0" dy="0">Apply approval, safety,</tspan><tspan x="730.0" dy="12">and budget gates</tspan></text>
+<path class="arrow" d="M 895 520 C 610.0 554, 610.0 554, 335 520"/>
+<rect x="530.0" y="490" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="540.0" y="510"><tspan x="540.0" dy="0">Challenge: risk too high</tspan><tspan x="540.0" dy="12">for auto-write</tspan></text>
+<path class="arrow" d="M 325 585 C 705.0 557, 705.0 557, 1075 585"/>
+<rect x="625.0" y="555" width="160" height="34" rx="14" fill="#ffffff" stroke="#dbeafe"/>
+<text class="tiny" text-anchor="start" x="635.0" y="575"><tspan x="635.0" dy="0">Review package with</tspan><tspan x="635.0" dy="12">evidence and</tspan><tspan x="635.0" dy="12">alternatives</tspan></text>
+<rect x="60" y="610" width="1120" height="42" rx="15" fill="#f8fafc" stroke="#dbeafe"/>
+<text class="small" x="84" y="636">Key design rule: disagreement is not a failure. It is the mechanism that turns a loose AI answer into an auditable maintenance recommendation.</text>
+</svg>
