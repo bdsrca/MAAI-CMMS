@@ -40,6 +40,10 @@ def screen_untrusted_text(*values: str) -> TextSafetyResult:
     return TextSafetyResult(safe=not matches, matched_patterns=matches)
 
 
+def _is_draft_operation(operation: str) -> bool:
+    return operation.startswith("draft_") or operation.endswith("_draft")
+
+
 def validate_tool_action(
     action: ToolAction,
     *,
@@ -50,7 +54,7 @@ def validate_tool_action(
     key = (action.system, action.operation)
     if key not in allowed:
         raise PermissionError(f"Tool action is not allowlisted: {action.system}.{action.operation}")
-    if dry_run_only and not action.operation.endswith("_draft"):
+    if dry_run_only and not _is_draft_operation(action.operation):
         raise PermissionError("Only draft/dry-run tool operations are allowed in this demo.")
     if not action.requires_approval:
         raise PermissionError("Demo tool actions must require human approval.")
