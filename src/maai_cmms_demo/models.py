@@ -1,4 +1,4 @@
-﻿"""Core data contracts for the experimental agentic CMMS demo.
+"""Core data contracts for the experimental agentic CMMS demo.
 
 The demo is intentionally deterministic: no network calls, no LLM calls, and no
 writes to real systems. It models the contracts a production CMMS/EAM agent
@@ -41,6 +41,7 @@ class WorkRequest:
 @dataclass(frozen=True)
 class AssetRecord:
     asset_id: str
+    tenant_id: str
     name: str
     class_code: str
     site_id: str
@@ -124,4 +125,3 @@ class OrchestrationRun:
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
-
