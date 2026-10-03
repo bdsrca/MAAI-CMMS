@@ -1,7 +1,7 @@
 [project]
 name = "maai-cmms-demo"
-version = "0.3.0"
-description = "Deterministic multi-agent CMMS/EAM demo with China smart manufacturing examples"
+version = "0.4.0"
+description = "Deterministic multi-agent CMMS/EAM demo with safe LLM adapter boundaries"
 requires-python = ">=3.11"
 authors = [{ name = "Independent Research" }]
 license = "MIT"
