@@ -11,6 +11,7 @@ def demo_assets() -> Dict[str, AssetRecord]:
     return {
         "COMP-04": AssetRecord(
             asset_id="COMP-04",
+            tenant_id="demo-tenant",
             name="Air Compressor 04",
             class_code="ROTATING_COMPRESSOR",
             site_id="PLANT-01",
@@ -22,6 +23,7 @@ def demo_assets() -> Dict[str, AssetRecord]:
         ),
         "PUMP-12": AssetRecord(
             asset_id="PUMP-12",
+            tenant_id="demo-tenant",
             name="Cooling Water Pump 12",
             class_code="CENTRIFUGAL_PUMP",
             site_id="PLANT-01",
